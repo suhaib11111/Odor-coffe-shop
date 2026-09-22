@@ -1001,3 +1001,5088 @@ body {
     filter: brightness(0.65);
     border-radius: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ODOR — Premium Coffee</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&family=Tajawal:wght@300;400;500;700&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Social Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://www.instagram.com/odor_coffe?stkn=MWozemgwbDg5MWVuMw==" class="social-icon" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/Odor-coffe-101269578621808/" class="social-icon" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <!-- ─── NAVBAR ─── -->
+    <nav class="navbar">
+        <a href="#home" class="logo"><span class="icon-letter">O</span>DOR</a>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav_home">Home</a></li>
+            <li><a href="#shop" data-i18n="nav_shop">Shop</a></li>
+            <li><a href="#blog" data-i18n="nav_blog">Blog</a></li>
+            <li><a href="#about" data-i18n="nav_about">About</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="nav-icon"><i class="far fa-heart"></i></div>
+            <div class="nav-icon"><i class="fas fa-coffee"></i></div>
+
+            <!-- ─── LANGUAGE DROPDOWN ─── -->
+            <div class="lang-dropdown">
+                <button class="nav-icon lang-trigger" aria-label="Change language">
+                    <i class="fas fa-globe"></i>
+                </button>
+
+                <div class="lang-menu">
+                    <button class="lang-option active" data-lang="en">
+                        <span class="lang-flag">EN</span>
+                        <span class="lang-native en">English</span>
+                        <i class="fas fa-check lang-check"></i>
+                    </button>
+
+                    <button class="lang-option" data-lang="ar">
+                        <span class="lang-flag">AR</span>
+                        <span class="lang-native ar">العربية</span>
+                        <i class="fas fa-check lang-check"></i>
+                    </button>
+
+                    <button class="lang-option" data-lang="ku">
+                        <span class="lang-flag">KU</span>
+                        <span class="lang-native ku">کوردی</span>
+                        <i class="fas fa-check lang-check"></i>
+                    </button>
+                </div>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="content-wrapper" id="home">
+        <div class="main-content">
+            <div class="left-content">
+                <div class="hero-eyebrow">
+                    <i class="fas fa-certificate"></i>
+                    <span data-i18n="hero_eyebrow">Est. Erbil • Artisan Specialty Roastery</span>
+                </div>
+
+                <h1 class="headline" data-i18n-html="hero_title">
+                    Discover<br />
+                    the real taste of<br />
+                    coffee with <span class="highlight">ODOR</span>
+                </h1>
+
+                <p class="sub-headline" data-i18n="hero_sub">Hand-picked single-origin beans, meticulously roasted and brewed.</p>
+                <p class="description" data-i18n-html="hero_desc">At ODOR, whether you're looking for a bold espresso or a smooth pour-over, we have it all.<br />Timeless roasting meets contemporary flavor — designed for those who dare to savor.</p>
+                <a href="#shop" class="cta-button" data-i18n="hero_cta">Explore Our Brews</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Split Section -->
+    <section class="split-section">
+        <div class="split-left">
+            <h2 data-i18n="split_title">From Bean to Cup</h2>
+            <p data-i18n="split_text">At ODOR, coffee is an art form. We hand-select exceptional beans and meticulously roast them in small batches to unlock a complex symphony of flavors. The result is a bold, astonishingly smooth brew with rich notes of dark chocolate and caramel—a moment of pure luxury in every sip.</p>
+        </div>
+        <div class="split-right">
+            <img src="image/coffe10.png" alt="Coffee Cups" />
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <video autoplay muted loop playsinline>
+            <source src="image/compressed_Video Project 4.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <h2 data-i18n="video_title">The Craft Behind the Cup</h2>
+            <p data-i18n="video_sub">Watch the passion poured into every roast.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="about-image">
+            <img src="image/inside.jpg" alt="Our Story" />
+        </div>
+        <div class="about-text">
+            <h2 data-i18n="about_title">Our Story</h2>
+            <p data-i18n-html="about_text">Founded in the heart of the city of Erbil, ODOR was born from a simple passion: to bring the world's finest beans to your cup. We believe in fair trade, small-batch roasting, and the art of slowing down to enjoy the moment.<br><br>"Here in Erbil, where the ancient Citadel watches over our streets, we hold tight to one simple belief: 'Coffee is the language of connection.' We invite you to pause, take a seat, and let the rich aromas wash over you. After all, every cup we pour is a quiet conversation between old traditions and new dreams."</p>
+        </div>
+    </section>
+
+    <!-- ─── SHOP / MENU SECTION ─── -->
+    <section class="shop-section" id="shop">
+        <div class="shop-overlay"></div>
+        <div class="shop-content">
+            <div class="shop-header">
+                <h2 data-i18n="shop_title">Our Signature Brews</h2>
+                <p data-i18n="shop_sub">Handcrafted daily, made with love and the finest beans.</p>
+            </div>
+
+            <div class="shop-grid">
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_1_name">Velvet Latte</h3>
+                    <p data-i18n="drink_1_desc">Silky steamed milk layered over a rich, double shot of espresso.</p>
+                    <div class="price">$4.50</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_2_name">Midnight Espresso</h3>
+                    <p data-i18n="drink_2_desc">Bold, dark roast with notes of chocolate and a velvety crema.</p>
+                    <div class="price">$3.50</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_3_name">Golden Pour-Over</h3>
+                    <p data-i18n="drink_3_desc">Single-origin beans, slow-brewed for a clean, fruity finish.</p>
+                    <div class="price">$5.00</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_4_name">Caramel Macchiato</h3>
+                    <p data-i18n="drink_4_desc">Layers of vanilla, milk, espresso, and a sweet caramel drizzle.</p>
+                    <div class="price">$4.75</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_5_name">Iced Cold Brew</h3>
+                    <p data-i18n="drink_5_desc">Steeped for 18 hours, served over ice for a smooth, mellow kick.</p>
+                    <div class="price">$4.25</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_6_name">Hazelnut Cappuccino</h3>
+                    <p data-i18n="drink_6_desc">Rich espresso topped with a nutty, velvety foam and cocoa.</p>
+                    <div class="price">$4.90</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_7_name">Mocha Delight</h3>
+                    <p data-i18n="drink_7_desc">Espresso blended with rich chocolate and topped with cream.</p>
+                    <div class="price">$5.25</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_8_name">Vanilla Flat White</h3>
+                    <p data-i18n="drink_8_desc">Smooth micro-foam over a velvety shot of espresso with vanilla.</p>
+                    <div class="price">$4.60</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3 data-i18n="drink_9_name">Spiced Turkish Coffee</h3>
+                    <p data-i18n="drink_9_desc">Traditional brew with cardamom and a hint of cinnamon.</p>
+                    <div class="price">$4.00</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="shop-header shop-header-sub">
+                <h2 data-i18n="shop_drinks_title">Non-Coffee / Drinks</h2>
+                <p data-i18n="shop_drinks_sub">Refreshing alternatives for those who want something different.</p>
+            </div>
+
+            <div class="shop-grid">
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-glass-water"></i></div>
+                    <h3 data-i18n="cold_1_name">Fresh Orange Juice</h3>
+                    <p data-i18n="cold_1_desc">Freshly squeezed oranges, served chilled with a hint of mint.</p>
+                    <div class="price">$3.75</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-wine-glass"></i></div>
+                    <h3 data-i18n="cold_2_name">Berry Lemonade</h3>
+                    <p data-i18n="cold_2_desc">A refreshing blend of mixed berries, lemon, and sparkling water.</p>
+                    <div class="price">$4.00</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-cocktail"></i></div>
+                    <h3 data-i18n="cold_3_name">Virgin Mojito</h3>
+                    <p data-i18n="cold_3_desc">Fresh mint, lime, and sparkling soda over crushed ice.</p>
+                    <div class="price">$4.25</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-mug-saucer"></i></div>
+                    <h3 data-i18n="cold_4_name">Odor Tea</h3>
+                    <p data-i18n="cold_4_desc">Hand-picked black tea leaves, gently steeped with aromatic spices and served warm.</p>
+                    <div class="price">$3.50</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-ice-cream"></i></div>
+                    <h3 data-i18n="cold_5_name">Strawberry Smoothie</h3>
+                    <p data-i18n="cold_5_desc">Fresh strawberries blended with milk and strawberry syrup over crushed ice.</p>
+                    <div class="price">$3.50</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+
+                <div class="shop-card">
+                    <div class="shop-icon"><i class="fas fa-ice-cream"></i></div>
+                    <h3 data-i18n="cold_6_name">Banana Smoothie</h3>
+                    <p data-i18n="cold_6_desc">Fresh bananas blended with milk and honey over crushed ice.</p>
+                    <div class="price">$2.50</div>
+                    <a href="#" class="add-btn" data-i18n="add_to_cart">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── BLOG VIDEO SLIDE ─── -->
+    <div class="blog-slide active">
+        <div class="blog-video">
+            <video autoplay muted loop playsinline>
+                <source src="image/IMG_0633.MP4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- ─── PARALLAX IMAGE SLIDER (Shop Photos) ─── -->
+    <section class="parallax-gallery">
+        <div class="parallax-panel">
+            <img src="image/walls.jpg" alt="ODOR Coffee Shop 1">
+            <div class="parallax-overlay">
+                <h3>Our Space</h3>
+                <p>Where warmth meets craft.</p>
+            </div>
+        </div>
+
+        <div class="parallax-panel">
+            <img src="image/beans.png" alt="ODOR Coffee Shop 2">
+            <div class="parallax-overlay">
+                <h3>The Atmosphere</h3>
+                <p>Designed for slow moments.</p>
+            </div>
+        </div>
+
+        <div class="parallax-panel">
+            <img src="image/bag.jpg" alt="ODOR Coffee Shop 3">
+            <div class="parallax-overlay">
+                <h3>The Experience</h3>
+                <p>Every detail crafted with love.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── BLOG / NEWS PAGE ─── -->
+    <section class="blog-section" id="blog">
+        <div class="blog-header">
+            <h2 data-i18n="blog_title">What's Happening at ODOR</h2>
+            <p data-i18n="blog_sub">News, offers, and our opening hours.</p>
+        </div>
+
+        <div class="blog-slider">
+            <div class="blog-slide active">
+                <div class="blog-text">
+                    <i class="fas fa-newspaper"></i>
+                    <h3 data-i18n="blog_news_title">Latest News</h3>
+                    <p data-i18n="blog_news_text">We are thrilled to unveil our hand-crafted new winter menu, carefully created to bring you warmth and comfort as the season cools down. Highlighting our new offerings are the rich, aromatic Spiced Turkish Coffee—infused with subtle cardamom and cinnamon notes—and our silky Caramel Macchiato, brewed with freshly roasted espresso and house-made vanilla syrup. Whether you need a cozy morning pick-me-up or a place to unwind with friends, come visit our Erbil location this week and experience your new favorite winter brew!</p>
+                    <span class="blog-date" data-i18n="blog_news_date">Available Now in The menu</span>
+                </div>
+                <div class="blog-image">
+                    <img src="image/IMG_0634.JPG" alt="Latest News">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── DISCOUNT / OFFER SECTION ─── -->
+    <section class="blog-section discount-section">
+        <div class="blog-header">
+            <h2 data-i18n="disc_title">Limited Time Offer</h2>
+            <p data-i18n="disc_sub">Grab your favorite brew before the timer runs out.</p>
+        </div>
+
+        <div class="blog-slider">
+            <div class="blog-slide active">
+                <div class="blog-text">
+                    <i class="fas fa-tag"></i>
+                    <h3 data-i18n="disc_offer_title">20% OFF All Signature Brews</h3>
+                    <p data-i18n="disc_offer_text">For a limited time, enjoy 20% off every handcrafted coffee on our menu. Whether you crave a Velvet Latte or a bold Midnight Espresso, now is the perfect moment to indulge. Visit us in Erbil and treat yourself — this offer won't last long.</p>
+
+                    <div class="discount-timer" id="discountTimer">
+                        <div class="timer-block"><span class="timer-number" id="days">00</span><span class="timer-label" data-i18n="timer_days">Days</span></div>
+                        <div class="timer-block"><span class="timer-number" id="hours">00</span><span class="timer-label" data-i18n="timer_hours">Hours</span></div>
+                        <div class="timer-block"><span class="timer-number" id="minutes">00</span><span class="timer-label" data-i18n="timer_minutes">Minutes</span></div>
+                        <div class="timer-block"><span class="timer-number" id="seconds">00</span><span class="timer-label" data-i18n="timer_seconds">Seconds</span></div>
+                    </div>
+
+                    <span class="blog-date" data-i18n="disc_date">Offer ends soon — don't miss out!</span>
+                </div>
+
+                <div class="blog-image">
+                    <div class="slider-wrapper">
+                        <button class="slider-arrow slider-prev" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+
+                        <div class="image-slider">
+                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" alt="Offer 1" class="slider-img active">
+                            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80" alt="Offer 2" class="slider-img">
+                            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&q=80" alt="Offer 3" class="slider-img">
+                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80" alt="Offer 4" class="slider-img">
+
+                            <div class="slider-dots">
+                                <span class="dot active" data-index="0"></span>
+                                <span class="dot" data-index="1"></span>
+                                <span class="dot" data-index="2"></span>
+                                <span class="dot" data-index="3"></span>
+                            </div>
+                        </div>
+
+                        <button class="slider-arrow slider-next" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── PARALLAX SECTION ─── -->
+    <section class="plx-wrapper">
+        <div class="plx-sticky">
+
+            <div class="plx-bg">
+                <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1061&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.png" alt="Background">
+            </div>
+            <div class="plx-vignette"></div>
+
+            <div class="plx-item pos-left">
+                <img src="https://plus.unsplash.com/premium_photo-1726866198964-84c38f1e98c9?q=80&w=721&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Left">
+                <span class="plx-frame-tag">Erbil · Est. 2024</span>
+            </div>
+            <div class="plx-item pos-center">
+                <img src="https://images.unsplash.com/photo-1647919234609-3acf20be65fc?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.png" alt="Center">
+                <span class="plx-frame-tag">Erbil · Est. 2024</span>
+            </div>
+            <div class="plx-item pos-right">
+                <img src="image/bag.jpg" alt="Right">
+                <span class="plx-frame-tag">Erbil · Est. 2024</span>
+            </div>
+
+            <button class="plx-arrow plx-arrow-left" aria-label="Previous image">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="plx-arrow plx-arrow-right" aria-label="Next image">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <div class="plx-content">
+                <h1 class="plx-title" data-i18n="plx_title">ODOR</h1>
+                <p class="plx-tagline" data-i18n="plx_tagline">Crafted slowly · Savored fully</p>
+            </div>
+
+            <div class="plx-scroll-hint">
+                <span data-i18n="plx_scroll">Scroll</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ─── CONTACT / LOCATION SECTION ─── -->
+    <section class="contact-section" id="contact">
+        <div class="contact-header">
+            <h2 data-i18n="contact_title">Find Us</h2>
+            <p data-i18n="contact_sub">Come for the coffee, stay for the atmosphere.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps?q=Odor+Coffee+Erbil&output=embed"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Odor Coffee Location">
+                </iframe>
+            </div>
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3 data-i18n="contact_address">Address</h3>
+                        <p>6X3R+WHC, Supermarket St<br>Erbil, Iraq</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3 data-i18n="contact_hours">Opening Hours</h3>
+                        <p data-i18n="contact_hours_text">Daily: 8:00 AM – 2:00 AM</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h3 data-i18n="contact_phone">Phone</h3>
+                        <p><a href="tel:+9647511559191">+964 751 155 9191</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <h3 data-i18n="contact_whatsapp">WhatsApp</h3>
+                        <p><a href="https://wa.me/9647511559191" target="_blank" data-i18n="contact_wa_text">Message us for orders</a></p>
+                    </div>
+                </div>
+
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Odor+Coffee+Erbil" target="_blank" class="contact-directions">
+                    <i class="fas fa-directions"></i> <span data-i18n="contact_directions">Get Directions</span>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="site-footer">
+        <div class="footer-glow"></div>
+
+        <div class="footer-inner">
+
+            <div class="footer-col footer-brand">
+                <a href="#home" class="footer-logo"><span class="icon-letter">O</span>DOR</a>
+                <p class="footer-tagline" data-i18n="foot_tagline">Crafted slowly. Savored fully.</p>
+                <p class="footer-blurb" data-i18n="foot_blurb">
+                    Erbil's home for specialty coffee, hand-picked beans, and moments worth pausing for.
+                </p>
+
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/odor_coffe?stkn=MWozemgwbDg5MWVuMw==" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/Odor-coffe-101269578621808/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4 data-i18n="foot_explore">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="#home" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#shop" data-i18n="nav_shop">Shop</a></li>
+                    <li><a href="#blog" data-i18n="nav_blog">Blog</a></li>
+                    <li><a href="#about" data-i18n="nav_about">About</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 data-i18n="foot_visit">Visit Us</h4>
+                <ul class="footer-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>6X3R+WHC, Supermarket St<br>Erbil, Iraq</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <span data-i18n="contact_hours_text">Daily: 8:00 AM – 2:00 AM</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+9647511559191">+964 751 155 9191</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 data-i18n="foot_news">Stay in the Loop</h4>
+                <p class="footer-news-text" data-i18n="foot_news_text">
+                    New brews, secret offers, and café events — straight to your inbox.
+                </p>
+                <form class="footer-news" onsubmit="event.preventDefault(); this.querySelector('.footer-news-btn').textContent = '✓';">
+                    <input type="email" placeholder="Your email" data-i18n-placeholder="foot_news_placeholder" required />
+                    <button type="submit" class="footer-news-btn" aria-label="Subscribe">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p data-i18n="foot_copyright">© 2025 ODOR Coffee · All rights reserved.</p>
+            <p class="footer-credit" data-i18n-html="foot_credit">Crafted with <i class="fas fa-heart"></i> in Erbil</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="javascript.js"></script>
+
+    <script>
+        // ─── COUNTDOWN TIMER ───
+        (function() {
+            const offerEndDate = new Date('2026-12-31T23:59:59').getTime();
+
+            function updateTimer() {
+                const distance = offerEndDate - new Date().getTime();
+
+                if (distance < 0) {
+                    document.getElementById('days').textContent = '00';
+                    document.getElementById('hours').textContent = '00';
+                    document.getElementById('minutes').textContent = '00';
+                    document.getElementById('seconds').textContent = '00';
+                    return;
+                }
+
+                document.getElementById('days').textContent = String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, '0');
+                document.getElementById('hours').textContent = String(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(2, '0');
+            }
+
+            updateTimer();
+            setInterval(updateTimer, 1000);
+        })();
+
+        // ─── IMAGE SLIDER ───
+        (function() {
+            const section = document.querySelector('.discount-section');
+            if (!section) return;
+
+            const images = section.querySelectorAll('.slider-img');
+            const dots = section.querySelectorAll('.slider-dots .dot');
+            const nextBtn = section.querySelector('.slider-next');
+            const prevBtn = section.querySelector('.slider-prev');
+
+            if (!images.length || !nextBtn || !prevBtn) return;
+
+            let current = 0;
+            let autoplay;
+
+            function showSlide(index) {
+                images.forEach((img, i) => img.classList.toggle('active', i === index));
+                dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+                current = index;
+            }
+
+            function nextSlide() { showSlide((current + 1) % images.length); }
+            function prevSlide() { showSlide((current - 1 + images.length) % images.length); }
+
+            nextBtn.addEventListener('click', () => { nextSlide(); resetAutoplay(); });
+            prevBtn.addEventListener('click', () => { prevSlide(); resetAutoplay(); });
+
+            dots.forEach(dot => {
+                dot.addEventListener('click', () => {
+                    showSlide(Number(dot.dataset.index));
+                    resetAutoplay();
+                });
+            });
+
+            function startAutoplay() { autoplay = setInterval(nextSlide, 4000); }
+            function resetAutoplay() { clearInterval(autoplay); startAutoplay(); }
+
+            startAutoplay();
+        })();
+
+        // ─── NAVBAR SCROLL EFFECT ───
+        (function() {
+            const nav = document.querySelector('.navbar');
+            if (!nav) return;
+            window.addEventListener('scroll', () => {
+                nav.classList.toggle('scrolled', window.scrollY > 50);
+            });
+        })();
+
+        // ─── BACK TO TOP ───
+        (function() {
+            const backBtn = document.querySelector('.back-to-top');
+            if (!backBtn) return;
+
+            window.addEventListener('scroll', () => {
+                backBtn.classList.toggle('visible', window.scrollY > 500);
+            });
+
+            backBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+
+        // ─── SCROLL REVEAL ANIMATIONS ───
+        (function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    } else {
+                        entry.target.classList.remove('active');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.reveal-left, .reveal-right').forEach(el => {
+                observer.observe(el);
+            });
+        })();
+
+        // ─── MOBILE MENU TOGGLE ───
+        (function() {
+            const btn = document.querySelector('.mobile-menu-btn');
+            const links = document.querySelector('.nav-links');
+
+            if (!btn || !links) return;
+
+            btn.addEventListener('click', () => {
+                const isOpen = links.classList.toggle('open');
+                document.body.classList.toggle('menu-open', isOpen);
+                btn.textContent = isOpen ? '✕' : '☰';
+            });
+
+            links.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    links.classList.remove('open');
+                    document.body.classList.remove('menu-open');
+                    btn.textContent = '☰';
+                });
+            });
+
+            document.addEventListener('click', (e) => {
+                if (window.innerWidth > 768) return;
+                if (!links.classList.contains('open')) return;
+                if (links.contains(e.target) || btn.contains(e.target)) return;
+                links.classList.remove('open');
+                document.body.classList.remove('menu-open');
+                btn.textContent = '☰';
+            });
+        })();
+
+        // ─── LANGUAGE SYSTEM (EN / AR / KU) ───
+        const TRANSLATIONS = {
+            en: {
+                nav_home: "Home", nav_shop: "Shop", nav_blog: "Blog", nav_about: "About", nav_contact: "Contact",
+                hero_eyebrow: "Est. Erbil • Artisan Specialty Roastery",
+                hero_title: 'Discover<br />the real taste of<br />coffee with <span class="highlight">ODOR</span>',
+                hero_sub: "Hand-picked single-origin beans, meticulously roasted and brewed.",
+                hero_desc: "At ODOR, whether you're looking for a bold espresso or a smooth pour-over, we have it all.<br />Timeless roasting meets contemporary flavor — designed for those who dare to savor.",
+                hero_cta: "Explore Our Brews",
+                split_title: "From Bean to Cup",
+                split_text: "At ODOR, coffee is an art form. We hand-select exceptional beans and meticulously roast them in small batches to unlock a complex symphony of flavors. The result is a bold, astonishingly smooth brew with rich notes of dark chocolate and caramel—a moment of pure luxury in every sip.",
+                video_title: "The Craft Behind the Cup",
+                video_sub: "Watch the passion poured into every roast.",
+                about_title: "Our Story",
+                about_text: 'Founded in the heart of the city of Erbil, ODOR was born from a simple passion: to bring the world\'s finest beans to your cup. We believe in fair trade, small-batch roasting, and the art of slowing down to enjoy the moment.<br><br>"Here in Erbil, where the ancient Citadel watches over our streets, we hold tight to one simple belief: \'Coffee is the language of connection.\' We invite you to pause, take a seat, and let the rich aromas wash over you. After all, every cup we pour is a quiet conversation between old traditions and new dreams."',
+                shop_title: "Our Signature Brews",
+                shop_sub: "Handcrafted daily, made with love and the finest beans.",
+                shop_drinks_title: "Non-Coffee / Drinks",
+                shop_drinks_sub: "Refreshing alternatives for those who want something different.",
+                add_to_cart: "Add to Cart",
+                drink_1_name: "Velvet Latte", drink_1_desc: "Silky steamed milk layered over a rich, double shot of espresso.",
+                drink_2_name: "Midnight Espresso", drink_2_desc: "Bold, dark roast with notes of chocolate and a velvety crema.",
+                drink_3_name: "Golden Pour-Over", drink_3_desc: "Single-origin beans, slow-brewed for a clean, fruity finish.",
+                drink_4_name: "Caramel Macchiato", drink_4_desc: "Layers of vanilla, milk, espresso, and a sweet caramel drizzle.",
+                drink_5_name: "Iced Cold Brew", drink_5_desc: "Steeped for 18 hours, served over ice for a smooth, mellow kick.",
+                drink_6_name: "Hazelnut Cappuccino", drink_6_desc: "Rich espresso topped with a nutty, velvety foam and cocoa.",
+                drink_7_name: "Mocha Delight", drink_7_desc: "Espresso blended with rich chocolate and topped with cream.",
+                drink_8_name: "Vanilla Flat White", drink_8_desc: "Smooth micro-foam over a velvety shot of espresso with vanilla.",
+                drink_9_name: "Spiced Turkish Coffee", drink_9_desc: "Traditional brew with cardamom and a hint of cinnamon.",
+                cold_1_name: "Fresh Orange Juice", cold_1_desc: "Freshly squeezed oranges, served chilled with a hint of mint.",
+                cold_2_name: "Berry Lemonade", cold_2_desc: "A refreshing blend of mixed berries, lemon, and sparkling water.",
+                cold_3_name: "Virgin Mojito", cold_3_desc: "Fresh mint, lime, and sparkling soda over crushed ice.",
+                cold_4_name: "Odor Tea", cold_4_desc: "Hand-picked black tea leaves, gently steeped with aromatic spices and served warm.",
+                cold_5_name: "Strawberry Smoothie", cold_5_desc: "Fresh strawberries blended with milk and strawberry syrup over crushed ice.",
+                cold_6_name: "Banana Smoothie", cold_6_desc: "Fresh bananas blended with milk and honey over crushed ice.",
+                plx_title: "ODOR", plx_tagline: "Crafted slowly · Savored fully", plx_scroll: "Scroll",
+                blog_title: "What's Happening at ODOR", blog_sub: "News, offers, and our opening hours.",
+                blog_news_title: "Latest News",
+                blog_news_text: "We are thrilled to unveil our hand-crafted new winter menu, carefully created to bring you warmth and comfort as the season cools down. Highlighting our new offerings are the rich, aromatic Spiced Turkish Coffee—infused with subtle cardamom and cinnamon notes—and our silky Caramel Macchiato, brewed with freshly roasted espresso and house-made vanilla syrup. Whether you need a cozy morning pick-me-up or a place to unwind with friends, come visit our Erbil location this week and experience your new favorite winter brew!",
+                blog_news_date: "Available Now in The menu",
+                disc_title: "Limited Time Offer", disc_sub: "Grab your favorite brew before the timer runs out.",
+                disc_offer_title: "20% OFF All Signature Brews",
+                disc_offer_text: "For a limited time, enjoy 20% off every handcrafted coffee on our menu. Whether you crave a Velvet Latte or a bold Midnight Espresso, now is the perfect moment to indulge. Visit us in Erbil and treat yourself — this offer won't last long.",
+                disc_date: "Offer ends soon — don't miss out!",
+                timer_days: "Days", timer_hours: "Hours", timer_minutes: "Minutes", timer_seconds: "Seconds",
+                contact_title: "Find Us", contact_sub: "Come for the coffee, stay for the atmosphere.",
+                contact_address: "Address", contact_hours: "Opening Hours", contact_phone: "Phone", contact_whatsapp: "WhatsApp",
+                contact_directions: "Get Directions",
+                contact_hours_text: "Daily: 8:00 AM – 2:00 AM",
+                contact_wa_text: "Message us for orders",
+                foot_tagline: "Crafted slowly. Savored fully.",
+                foot_blurb: "Erbil's home for specialty coffee, hand-picked beans, and moments worth pausing for.",
+                foot_explore: "Explore", foot_visit: "Visit Us", foot_news: "Stay in the Loop",
+                foot_news_text: "New brews, secret offers, and café events — straight to your inbox.",
+                foot_news_placeholder: "Your email",
+                foot_copyright: "© 2025 ODOR Coffee · All rights reserved.",
+                foot_credit: 'Crafted with <i class="fas fa-heart"></i> in Erbil'
+            },
+            ar: {
+                nav_home: "الرئيسية", nav_shop: "المتجر", nav_blog: "المدونة", nav_about: "من نحن", nav_contact: "اتصل بنا",
+                hero_eyebrow: "تأسست في أربيل • محمصة حرفية متخصصة",
+                hero_title: 'اكتشف<br />الطعم الحقيقي للقهوة<br />مع <span class="highlight">ODOR</span>',
+                hero_sub: "حبوب مختارة يدويًا من أصل واحد، محمّصة ومُخمّرة بعناية فائقة.",
+                hero_desc: "في ODOR، سواء كنت تبحث عن إسبريسو قوي أو قهوة مقطرة ناعمة، لدينا كل ما تحتاجه.<br />تحميص خالد يلتقي بالنكهة العصرية — مصمم لأولئك الذين يجرؤون على التذوق.",
+                hero_cta: "استكشف مشروباتنا",
+                split_title: "من الحبة إلى الفنجان",
+                split_text: "في ODOR، القهوة هي فن. نختار حبوبًا استثنائية بعناية ونحمصها على دفعات صغيرة لإطلاق سيمفونية معقدة من النكهات. النتيجة هي مشروب جريء وناعم بشكل مذهل مع نوتات غنية من الشوكولاتة الداكنة والكراميل — لحظة من الرفاهية الخالصة في كل رشفة.",
+                video_title: "الحرفة خلف الفنجان",
+                video_sub: "شاهد الشغف المسكوب في كل تحميص.",
+                about_title: "قصتنا",
+                about_text: 'تأسست ODOR في قلب مدينة أربيل، وُلدت من شغف بسيط: جلب أجود الحبوب في العالم إلى فنجانك. نؤمن بالتجارة العادلة، والتحميص على دفعات صغيرة، وفن التمهل للاستمتاع باللحظة.<br><br>"هنا في أربيل، حيث تحرس القلعة القديمة شوارعنا، نتمسك بإيمان واحد بسيط: \'القهوة هي لغة التواصل.\' ندعوك للتوقف، والجلوس، وترك الروائح الغنية تغمرك. ففي النهاية، كل فنجان نسكبه هو محادثة هادئة بين التقاليد القديمة والأحلام الجديدة."',
+                shop_title: "مشروباتنا المميزة",
+                shop_sub: "مصنوعة يدويًا يوميًا، بحب وأجود الحبوب.",
+                shop_drinks_title: "مشروبات أخرى",
+                shop_drinks_sub: "بدائل منعشة لمن يريد شيئًا مختلفًا.",
+                add_to_cart: "أضف إلى السلة",
+                drink_1_name: "لاتيه مخملي", drink_1_desc: "حليب مبخّر حريري فوق جرعة مزدوجة غنية من الإسبريسو.",
+                drink_2_name: "إسبريسو منتصف الليل", drink_2_desc: "تحميص داكن جريء مع نوتات الشوكولاتة وكريما مخملية.",
+                drink_3_name: "بور أوفر ذهبي", drink_3_desc: "حبوب من أصل واحد، مخمّرة ببطء لنهاية نظيفة وفاكهية.",
+                drink_4_name: "كراميل ماكياتو", drink_4_desc: "طبقات من الفانيليا والحليب والإسبريسو مع رذاذ الكراميل الحلو.",
+                drink_5_name: "كولد برو مثلج", drink_5_desc: "منقوع لمدة 18 ساعة، يقدم على الثلج لنكهة ناعمة ولطيفة.",
+                drink_6_name: "كابتشينو البندق", drink_6_desc: "إسبريسو غني مع رغوة مخملية بنكهة البندق والكاكاو.",
+                drink_7_name: "موكا دي لايت", drink_7_desc: "إسبريسو ممزوج بالشوكولاتة الغنية ومزين بالكريمة.",
+                drink_8_name: "فلات وايت بالفانيليا", drink_8_desc: "رغوة ناعمة فوق جرعة إسبريسو مخملية مع الفانيليا.",
+                drink_9_name: "قهوة تركية بالتوابل", drink_9_desc: "تحضير تقليدي مع الهيل ولمسة من القرفة.",
+                cold_1_name: "عصير برتقال طازج", cold_1_desc: "برتقال معصور طازجًا، يقدم مبردًا مع لمسة من النعناع.",
+                cold_2_name: "ليموناضة التوت", cold_2_desc: "مزيج منعش من التوت المختلط والليمون والماء الفوار.",
+                cold_3_name: "موهيتو بدون كحول", cold_3_desc: "نعناع طازج، ليمون، وصودا فوارة على الثلج المجروش.",
+                cold_4_name: "شاي ODOR", cold_4_desc: "أوراق شاي أسود مختارة يدويًا، منقوعة بلطف مع توابل عطرية وتقدم دافئة.",
+                cold_5_name: "سموذي الفراولة", cold_5_desc: "فراولة طازجة ممزوجة مع الحليب وشراب الفراولة على الثلج المجروش.",
+                cold_6_name: "سموذي الموز", cold_6_desc: "موز طازج ممزوج مع الحليب والعسل على الثلج المجروش.",
+                plx_title: "ODOR", plx_tagline: "مصنوع ببطء · مُتذوق بالكامل", plx_scroll: "اسحب للأسفل",
+                blog_title: "ما يحدث في ODOR", blog_sub: "أخبار وعروض وساعات العمل.",
+                blog_news_title: "آخر الأخبار",
+                blog_news_text: "يسعدنا الكشف عن قائمة الشتاء الجديدة المصنوعة يدويًا، والمصممة بعناية لتجلب لك الدفء والراحة مع برودة الموسم. من أبرز عروضنا الجديدة القهوة التركية بالتوابل الغنية والعطرية — المنقوعة بنوتات الهيل والقرفة — والكراميل ماكياتو الحريري، المحضر بإسبريسو محمص طازج وشراب الفانيليا المنزلي. سواء كنت بحاجة إلى دفعة صباحية دافئة أو مكان للاسترخاء مع الأصدقاء، قم بزيارة موقعنا في أربيل هذا الأسبوع وجرب مشروبك الشتوي المفضل الجديد!",
+                blog_news_date: "متوفر الآن في القائمة",
+                disc_title: "عرض لفترة محدودة", disc_sub: "احصل على مشروبك المفضل قبل انتهاء الوقت.",
+                disc_offer_title: "خصم 20% على جميع المشروبات المميزة",
+                disc_offer_text: "لفترة محدودة، استمتع بخصم 20% على كل قهوة مصنوعة يدويًا في قائمتنا. سواء كنت تتوق إلى لاتيه مخملي أو إسبريسو منتصف الليل الجريء، الآن هو الوقت المثالي للاستمتاع. قم بزيارتنا في أربيل ودلل نفسك — هذا العرض لن يدوم طويلاً.",
+                disc_date: "ينتهي العرض قريبًا — لا تفوته!",
+                timer_days: "أيام", timer_hours: "ساعات", timer_minutes: "دقائق", timer_seconds: "ثواني",
+                contact_title: "زورونا", contact_sub: "تعال من أجل القهوة، وابقَ من أجل الجو.",
+                contact_address: "العنوان", contact_hours: "ساعات العمل", contact_phone: "الهاتف", contact_whatsapp: "واتساب",
+                contact_directions: "احصل على الاتجاهات",
+                contact_hours_text: "يوميًا: 8:00 صباحًا – 2:00 صباحًا",
+                contact_wa_text: "راسلنا للطلبات",
+                foot_tagline: "مصنوع ببطء. مُتذوق بالكامل.",
+                foot_blurb: "بيت أربيل للقهوة المتخصصة، والحبوب المختارة يدويًا، واللحظات التي تستحق التوقف.",
+                foot_explore: "استكشف", foot_visit: "زورونا", foot_news: "ابقَ على اطلاع",
+                foot_news_text: "مشروبات جديدة، عروض سرية، وفعاليات المقهى — مباشرة إلى بريدك.",
+                foot_news_placeholder: "بريدك الإلكتروني",
+                foot_copyright: "© 2025 ODOR Coffee · جميع الحقوق محفوظة.",
+                foot_credit: 'صُنع بـ <i class="fas fa-heart"></i> في أربيل'
+            },
+            ku: {
+                nav_home: "سەرەکی", nav_shop: "فرۆشگا", nav_blog: "بلۆگ", nav_about: "دەربارەی ئێمە", nav_contact: "پەیوەندی",
+                hero_eyebrow: "دامەزراوە لە هەولێر • برژاندنی دەستکردی تایبەت",
+                hero_title: 'تامە ڕاستەقینەکەی قاوە<br />بدۆزەرەوە لەگەڵ <span class="highlight">ODOR</span>',
+                hero_sub: "دانەکانی هەڵبژێردراوی دەستکرد لە سەرچاوەیەک، بە وردی برژاو و ئامادەکراو.",
+                hero_desc: "لە ODOR، ئەگەر بەدوای ئیسپرێسۆی بەهێز یان قاوەی نەرمدا بگەڕێی، هەموویمان هەیە.<br />برژاندنی هەمیشەیی لەگەڵ تامی هاوچەرخ — بۆ ئەوانەی کە دەوێرن تام بکەن.",
+                hero_cta: "خواردنەوەکانمان ببینە",
+                split_title: "لە دانەوە بۆ پەرداخ",
+                split_text: "لە ODOR، قاوە هونەرە. دانەکانی نایاب بە وردی هەڵدەبژێرین و بە بچووکیان دەبرژێنین بۆ کردنەوەی سیمفۆنییەکی ئاڵۆزی تامەکان. ئەنجامەکە خواردنەوەیەکی بەهێز و نەرمە بە تامی چاکۆلێتی تاریک و کارامێل — ساتێک لە خۆشی خالص لە هەر قومێکدا.",
+                video_title: "پیشەسازی لە پشت پەرداخ",
+                video_sub: "گەرمی دڵسۆزی ببینە کە دەڕژێتە ناو هەر برژاندنێک.",
+                about_title: "چیرۆکەکەمان",
+                about_text: 'ODOR لە دڵی شاری هەولێر دامەزراوە، لە خولیایەکی سادەوە لەدایکبووە: هێنانی باشترین دانەکانی جیهان بۆ پەرداخەکەت. باوەڕمان بە بازرگانی دادپەروەرانە، برژاندنی بچووک، و هونەری هێواشبوونەوە بۆ چێژوەرگرتن لە ساتەکە هەیە.<br><br>"لێرە لە هەولێر، کە قەڵای کۆن چاودێری شەقامەکانمان دەکات، بە یەک باوەڕی سادەوە دەچەسپێین: \'قاوە زمانی پەیوەندییە.\' بانگتان دەکەین کە بوەستن، دانیشن، و ڕێگە بدەن بۆنە خۆشەکان بتانگرێت. لە کۆتاییدا، هەر پەرداخێک کە دەیڕژێنین گفتوگۆیەکی هێواشە لە نێوان نەریتە کۆنەکان و خەونە نوێیەکان."',
+                shop_title: "خواردنەوە تایبەتەکانمان",
+                shop_sub: "ڕۆژانە بە دەست دروستکراو، بە خۆشەویستی و باشترین دانەکان.",
+                shop_drinks_title: "خواردنەوەی تر",
+                shop_drinks_sub: "هەڵبژاردەی نوێژەر بۆ ئەوانەی شتێکی جیاواز دەوێن.",
+                add_to_cart: "زیادکردن بۆ سەبەتە",
+                drink_1_name: "لاتی مەخمەلی", drink_1_desc: "شیرێکی هەڵمکراوی ئاوریشمی لەسەر ئیسپرێسۆی دووانەی دەوڵەمەند.",
+                drink_2_name: "ئیسپرێسۆی نیوەشەو", drink_2_desc: "برژاندنی تاریکی بەهێز لەگەڵ تامی چاکۆلێت و کرێمای مەخمەلی.",
+                drink_3_name: "پۆر-ئۆڤەری زێڕین", drink_3_desc: "دانەی سەرچاوەیەک، بە هێواشی ئامادەکراو بۆ کۆتاییەکی پاک و میوەیی.",
+                drink_4_name: "کارامێل ماکیاتۆ", drink_4_desc: "چینەکانی ڤانیلا، شیر، ئیسپرێسۆ، و ڕژاوی کارامێلی شیرین.",
+                drink_5_name: "کۆڵد بریوی سەهۆڵبەستراو", drink_5_desc: "بۆ 18 کاتژمێر تێکەڵکراو، لەسەر سەهۆڵ پێشکەشکراو بۆ تامێکی نەرم.",
+                drink_6_name: "کاپوچینۆی فندق", drink_6_desc: "ئیسپرێسۆی دەوڵەمەند لەگەڵ کەفی مەخمەلی فندق و کاکاو.",
+                drink_7_name: "مۆکا دێلایت", drink_7_desc: "ئیسپرێسۆ تێکەڵکراو لەگەڵ چاکۆلێتی دەوڵەمەند و کرێم لەسەرەوە.",
+                drink_8_name: "فلات وایتی ڤانیلا", drink_8_desc: "مایکرۆ-کەفی نەرم لەسەر ئیسپرێسۆی مەخمەلی لەگەڵ ڤانیلا.",
+                drink_9_name: "قاوەی تورکی بەهارات", drink_9_desc: "ئامادەکردنی نەریتی لەگەڵ هێل و تامێکی دارچین.",
+                cold_1_name: "شەربەتی پرتەقاڵی تازە", cold_1_desc: "پرتەقاڵی تازە گوشراو، سارد پێشکەشکراو لەگەڵ نەعناع.",
+                cold_2_name: "لیمۆنادەی توو", cold_2_desc: "تێکەڵێکی نوێژەر لە توو، لیمۆ، و ئاوی گازدار.",
+                cold_3_name: "مۆهیتۆی بێ ئەلکحول", cold_3_desc: "نەعناعی تازە، لیمۆ، و سۆدای گازدار لەسەر سەهۆڵی وردکراو.",
+                cold_4_name: "چای ODOR", cold_4_desc: "گەڵاکانی چای ڕەشی دەستکرد، بە هێواشی لەگەڵ بەهاراتی بۆندار ئامادەکراو و گەرم پێشکەشکراو.",
+                cold_5_name: "سمۆسی فرۆڵە", cold_5_desc: "فرۆڵەی تازە تێکەڵکراو لەگەڵ شیر و شەربەتی فرۆڵە لەسەر سەهۆڵ.",
+                cold_6_name: "سمۆسی مۆز", cold_6_desc: "مۆزی تازە تێکەڵکراو لەگەڵ شیر و هەنگوین لەسەر سەهۆڵ.",
+                plx_title: "ODOR", plx_tagline: "بە هێواشی دروستکراو · بە تەواوی چێژلێکراو", plx_scroll: "بڕۆ خوارەوە",
+                blog_title: "چی ڕوودەدات لە ODOR", blog_sub: "هەواڵ، پێشکەشکردن، و کاتژمێرەکانی کارکردن.",
+                blog_news_title: "دوایین هەواڵەکان",
+                blog_news_text: "دڵخۆشین کە مێنیوی زستانی نوێمان بە دەست دروستکراو ئاشکرا دەکەین، کە بە وردی دروستکراوە بۆ هێنانی گەرمی و ئارامی کاتێک وەرزەکە سارد دەبێت. لە ناو پێشکەشکردنە نوێیەکانمان قاوەی تورکی بەهاراتدار دەوڵەمەند و بۆندارە — لەگەڵ تامی هێل و دارچین — و کارامێل ماکیاتۆی ئاوریشمی، لەگەڵ ئیسپرێسۆی تازە برژاو و شەربەتی ڤانیلای ماڵەوە. ئەگەر پێویستت بە بەرزکردنەوەی بەیانی گەرم هەیە یان شوێنێک بۆ ئارامبوونەوە لەگەڵ هاوڕێیان، ئەم هەفتەیە سەردانی شوێنەکەمان لە هەولێر بکە و خواردنەوەی زستانی دڵخوازی خۆت تاقی بکەرەوە!",
+                blog_news_date: "ئێستا لە مێنیودا بەردەستە",
+                disc_title: "پێشکەشکردنی کاتی سنووردار", disc_sub: "خواردنەوەی دڵخوازی خۆت بەدەست بهێنە پێش ئەوەی کاتەکە تەواو ببێت.",
+                disc_offer_title: "20% داشکاندن لە هەموو خواردنەوە تایبەتەکان",
+                disc_offer_text: "بۆ ماوەیەکی سنووردار، چێژی 20% داشکاندن ببینە لە هەموو قاوەیەکی دەستکرد لە مێنیوکەماندا. ئەگەر بەدوای لاتی مەخمەلی یان ئیسپرێسۆی نیوەشەوی بەهێزدا بگەڕێی، ئێستا کاتی گونجاوە. لە هەولێر سەردانمان بکە و خۆت خۆش بخە — ئەم پێشکەشکردنە درێژە ناکێشێت.",
+                disc_date: "پێشکەشکردنەکە بەم زووانە تەواو دەبێت — لێی مەخەوە!",
+                timer_days: "ڕۆژ", timer_hours: "کاتژمێر", timer_minutes: "خولەک", timer_seconds: "چرکە",
+                contact_title: "بمانبینە", contact_sub: "بۆ قاوە بێ، بۆ کەشوهەوا بمێنەوە.",
+                contact_address: "ناونیشان", contact_hours: "کاتژمێرەکانی کارکردن", contact_phone: "تەلەفۆن", contact_whatsapp: "واتساپ",
+                contact_directions: "ئاراستەکان بەدەست بهێنە",
+                contact_hours_text: "ڕۆژانە: 8:00 بەیانی – 2:00 بەیانی",
+                contact_wa_text: "پەیاممان بۆ بنێرە بۆ داواکاری",
+                foot_tagline: "بە هێواشی دروستکراو. بە تەواوی چێژلێکراو.",
+                foot_blurb: "ماڵی هەولێر بۆ قاوەی تایبەت، دانەکانی دەستکرد، و ساتەکانی شایەنی وەستان.",
+                foot_explore: "بگەڕێ", foot_visit: "سەردانمان بکە", foot_news: "لە ئاگاداریدا بە",
+                foot_news_text: "خواردنەوەی نوێ، پێشکەشکردنی نهێنی، و ڕووداوەکانی کافێ — ڕاستەوخۆ بۆ ئیمەیڵەکەت.",
+                foot_news_placeholder: "ئیمەیڵەکەت",
+                foot_copyright: "© 2025 ODOR Coffee · هەموو مافەکان پارێزراون.",
+                foot_credit: 'بە <i class="fas fa-heart"></i> لە هەولێر دروستکراوە'
+            }
+        };
+
+        function setLanguage(lang) {
+            const t = TRANSLATIONS[lang];
+            if (!t) return;
+
+            const isRTL = (lang === 'ar' || lang === 'ku');
+            document.documentElement.lang = lang;
+            document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
+
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (t[key] !== undefined) el.textContent = t[key];
+            });
+
+            document.querySelectorAll('[data-i18n-html]').forEach(el => {
+                const key = el.getAttribute('data-i18n-html');
+                if (t[key] !== undefined) el.innerHTML = t[key];
+            });
+
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                if (t[key] !== undefined) el.placeholder = t[key];
+            });
+
+            document.querySelectorAll('.lang-option').forEach(opt => {
+                opt.classList.toggle('active', opt.dataset.lang === lang);
+            });
+
+            try { localStorage.setItem('odor_lang', lang); } catch(e) {}
+        }
+
+        // ─── LANGUAGE DROPDOWN ───
+        (function() {
+            const dropdown = document.querySelector('.lang-dropdown');
+            const trigger  = dropdown ? dropdown.querySelector('.lang-trigger') : null;
+            const options  = document.querySelectorAll('.lang-option');
+
+            if (!dropdown || !trigger) return;
+
+            trigger.addEventListener('click', (e) => {
+                e.stopPropagation();
+                dropdown.classList.toggle('open');
+            });
+
+            options.forEach(opt => {
+                opt.addEventListener('click', () => {
+                    setLanguage(opt.dataset.lang);
+                    dropdown.classList.remove('open');
+                });
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!dropdown.contains(e.target)) {
+                    dropdown.classList.remove('open');
+                }
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') dropdown.classList.remove('open');
+            });
+        })();
+
+        // Load saved language on page load
+        (function() {
+            let saved = 'en';
+            try { saved = localStorage.getItem('odor_lang') || 'en'; } catch(e) {}
+            if (saved !== 'en') setLanguage(saved);
+        })();
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   ODOR — STYLE SHEET
+   Table of Contents:
+     1.  Reset & Base
+     2.  Scrollbar
+     3.  Animations (Keyframes)
+     4.  Navbar
+     5.  Social Sidebar
+     6.  Language Dropdown
+     7.  Hero Section
+     8.  Split Section
+     9.  Video Section
+     10. About Section
+     11. Shop / Menu Section
+     12. Blog / News Section
+     13. Discount Section
+     14. Image Slider (Discount)
+     15. Parallax Gallery
+     16. Parallax Section
+     17. Contact Section
+     18. Footer
+     19. Back-to-Top Button
+     20. Reveal Animations
+     21. RTL Support (Arabic / Kurdish)
+     22. Mobile Responsive
+     24. Blog · Discount Typography Redesign
+     25. RTL Blog Heading — Final Override
+     26. RTL Shop Header · Parallax · Discount Mirror
+     29. RTL Blog & Discount Header — Icon + Heading on RIGHT
+     30. RTL Shop Header — Back to Centered
+     32. Hide The Orphaned Video Slide
+     33. RTL Shop Cards — Match English Font & Sizes
+     34. RTL Hero — Match English Size
+   ═══════════════════════════════════════════════════════════════════ */
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   1. RESET & BASE
+   ═══════════════════════════════════════════════════════════════════ */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1f1a17;
+    color: #ffffff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   2. SCROLLBAR
+   ═══════════════════════════════════════════════════════════════════ */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #1f1a17; }
+::-webkit-scrollbar-thumb { background: #b8957a; border-radius: 6px; }
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   3. ANIMATIONS (KEYFRAMES)
+   ═══════════════════════════════════════════════════════════════════ */
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-50px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideLeft {
+    from { opacity: 0; transform: translateX(-60px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeUpIn {
+    from { opacity: 0; transform: translateY(40px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes plxBounce {
+    0%, 100% { transform: translateY(0);    opacity: 0.6; }
+    50%      { transform: translateY(6px);  opacity: 1;   }
+}
+
+@keyframes langPulse {
+    0%, 100% { opacity: 1;   transform: scale(1);    }
+    50%      { opacity: 0.6; transform: scale(0.85); }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   4. NAVBAR
+   ═══════════════════════════════════════════════════════════════════ */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3rem 1.5rem 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(31, 26, 23, 0.95);
+    backdrop-filter: blur(5px);
+    animation: slideDown 0.9s ease-out 0.1s both;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.logo .icon-letter {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #b8957a;
+    margin-right: 0.15rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    position: relative;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    padding-bottom: 6px;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #b8957a;
+    transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-links a:hover { color: #b8957a; }
+.nav-links a:hover::after { width: 100%; }
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-icon {
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+}
+
+.nav-icon:hover {
+    color: #b8957a;
+    background: rgba(184, 149, 122, 0.2);
+    transform: scale(1.15);
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: #b8957a;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   5. SOCIAL SIDEBAR
+   ═══════════════════════════════════════════════════════════════════ */
+.social-sidebar {
+    position: fixed;
+    left: 1.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    z-index: 20;
+}
+
+.social-icon {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    animation: slideLeft 0.8s ease-out both;
+}
+
+.social-icon:nth-child(1) { animation-delay: 1.1s; }
+.social-icon:nth-child(2) { animation-delay: 1.2s; }
+.social-icon:nth-child(3) { animation-delay: 1.3s; }
+
+.social-icon:hover {
+    color: #ffffff;
+    background: rgba(184, 149, 122, 0.2);
+    transform: scale(1.08);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   6. LANGUAGE DROPDOWN
+   ═══════════════════════════════════════════════════════════════════ */
+.lang-dropdown {
+    position: relative;
+}
+
+.lang-trigger {
+    position: relative;
+}
+
+.lang-trigger::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #b8957a;
+    box-shadow: 0 0 8px rgba(184, 149, 122, 0.8);
+    animation: langPulse 2.5s ease-in-out infinite;
+}
+
+.lang-dropdown.open .lang-trigger {
+    background: rgba(184, 149, 122, 0.25);
+    color: #b8957a;
+    transform: scale(1.15);
+}
+
+.lang-menu {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    min-width: 210px;
+    background: rgba(15, 11, 8, 0.95);
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+    border: 1px solid rgba(184, 149, 122, 0.3);
+    border-radius: 16px;
+    padding: 0.5rem;
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.7),
+        0 0 0 1px rgba(184, 149, 122, 0.1),
+        0 0 40px rgba(184, 149, 122, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px) scale(0.96);
+    transform-origin: top right;
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 0.25s;
+    z-index: 1200;
+}
+
+.lang-dropdown.open .lang-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.lang-menu::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: 18px;
+    width: 12px;
+    height: 12px;
+    background: rgba(15, 11, 8, 0.95);
+    border-left: 1px solid rgba(184, 149, 122, 0.3);
+    border-top: 1px solid rgba(184, 149, 122, 0.3);
+    transform: rotate(45deg);
+    border-radius: 2px 0 0 0;
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: transparent;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.25s ease;
+    position: relative;
+    font-family: inherit;
+}
+
+.lang-option:hover     { background: rgba(184, 149, 122, 0.12); }
+.lang-option.active    { background: rgba(184, 149, 122, 0.18); }
+
+.lang-flag {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 0.25rem 0.45rem;
+    min-width: 32px;
+    text-align: center;
+    transition: all 0.25s ease;
+}
+
+.lang-option.active .lang-flag,
+.lang-option:hover .lang-flag {
+    color: #b8957a;
+    background: rgba(184, 149, 122, 0.15);
+    border-color: rgba(184, 149, 122, 0.4);
+}
+
+.lang-native {
+    flex: 1;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+    transition: color 0.25s ease;
+    line-height: 1.2;
+}
+
+.lang-option.active .lang-native,
+.lang-option:hover .lang-native {
+    color: #ffffff;
+}
+
+.lang-native.en {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-size: 1rem;
+}
+
+.lang-native.ar {
+    font-family: 'Tajawal', 'Noto Kufi Arabic', sans-serif;
+    font-weight: 500;
+    font-size: 1.05rem;
+    direction: rtl;
+    text-align: right;
+    letter-spacing: 0;
+}
+
+.lang-native.ku {
+    font-family: 'Tajawal', 'Noto Kufi Arabic', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    direction: rtl;
+    text-align: right;
+    letter-spacing: 0;
+}
+
+.lang-check {
+    font-size: 0.7rem;
+    color: #b8957a;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.25s ease;
+    margin-left: auto;
+}
+
+.lang-option.active .lang-check {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.lang-option:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    right: 1rem;
+    height: 1px;
+    background: rgba(184, 149, 122, 0.1);
+}
+
+body.menu-open { overflow: hidden; }
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   7. HERO SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.content-wrapper {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 2rem 2rem 2rem 6rem;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/036/594/719/large_2x/ai-generated-coffee-shop-advertisment-background-with-copy-space-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: radial-gradient(ellipse at 70% 30%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.85));
+    pointer-events: none;
+    z-index: -1;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: center;
+    flex: 1;
+    padding: 2.5rem 0 2rem 0;
+    max-width: 800px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    max-width: 100%;
+}
+
+.hero-eyebrow, .headline, .sub-headline, .description, .cta-button {
+    animation: slideLeft 1s ease-out both;
+}
+.hero-eyebrow { animation-delay: 0.2s; }
+.headline     { animation-delay: 0.3s; }
+.sub-headline { animation-delay: 0.5s; }
+.description  { animation-delay: 0.7s; }
+.cta-button   { animation-delay: 0.9s; }
+
+.hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 1.1rem;
+    border: 1px solid rgba(184, 149, 122, 0.55);
+    border-radius: 60px;
+    background: rgba(184, 149, 122, 0.08);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #d9b89c;
+    align-self: flex-start;
+    margin-bottom: 0.4rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.hero-eyebrow i {
+    color: #b8957a;
+    font-size: 0.85rem;
+}
+
+.headline {
+    font-family: 'Anton', 'Oswald', 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: clamp(2.2rem, 5.4vw, 4.6rem);
+    line-height: 0.98;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 2px 3px 12px rgba(0, 0, 0, 0.75);
+    margin: 0;
+    padding: 0;
+}
+
+.headline .highlight {
+    color: #4a3524;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow:
+        0 0 1px rgba(184, 149, 122, 0.6),
+        1px 2px 8px rgba(0, 0, 0, 0.9);
+    -webkit-text-stroke: 1px rgba(184, 149, 122, 0.35);
+}
+
+.sub-headline {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    color: rgba(255, 255, 255, 0.92);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    margin-top: 0.2rem;
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.85rem, 1.1vw, 1rem);
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 300;
+    max-width: 100%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.cta-button {
+    display: inline-block;
+    background: #b8957a;
+    color: #ffffff;
+    padding: 0.9rem 2.8rem;
+    border-radius: 60px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    border: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: #ffffff;
+    color: #1f1a17;
+    transform: translateY(-2px);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   8. SPLIT SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.split-section {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: stretch;
+}
+
+.split-left {
+    width: 50%;
+    background-color: #F5EFE9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 4rem;
+    color: #5D4037;
+}
+
+.split-left h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #5D4037;
+}
+
+.split-left p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #6B4F3A;
+    max-width: 450px;
+}
+
+.split-right {
+    width: 50%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.split-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   9. VIDEO SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.video-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.video-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.video-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 10;
+}
+
+.video-content h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #b8957a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.video-content p {
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   10. ABOUT SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.about-section {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: stretch;
+    background-color: #F7F1EA;
+    color: #5D4037;
+}
+
+.about-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 4rem 3rem 15rem;
+}
+
+.about-text h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: #5D4037;
+}
+
+.about-text p {
+    line-height: 1.8;
+    color: #6B4F3A;
+    max-width: 500px;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   11. SHOP / MENU SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.shop-section {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    min-height: 80vh;
+    padding: 6rem 4rem;
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.shop-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(20, 12, 8, 0.85);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.shop-content {
+    position: relative;
+    z-index: 10;
+    color: #ffffff;
+}
+
+.shop-header h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: #b8957a;
+    margin-bottom: 1rem;
+}
+
+.shop-header p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 4rem;
+}
+
+.shop-header-sub {
+    margin-top: 6rem;
+}
+
+.shop-header-sub h2 {
+    font-size: 3rem;
+    color: #b8957a;
+}
+
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.shop-card {
+    background: rgba(42, 30, 23, 0.9);
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeUpIn 1s ease-out both;
+}
+
+.shop-card:nth-child(1) { animation-delay: 0s;   }
+.shop-card:nth-child(2) { animation-delay: 0.1s; }
+.shop-card:nth-child(3) { animation-delay: 0.2s; }
+.shop-card:nth-child(4) { animation-delay: 0.3s; }
+.shop-card:nth-child(5) { animation-delay: 0.4s; }
+.shop-card:nth-child(6) { animation-delay: 0.5s; }
+
+.shop-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+}
+
+.shop-icon {
+    font-size: 3rem;
+    color: #b8957a;
+    margin-bottom: 1rem;
+}
+
+.shop-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+}
+
+.shop-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.price {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #b8957a;
+    margin-bottom: 1rem;
+}
+
+.add-btn {
+    display: inline-block;
+    background: #b8957a;
+    color: #2A1E17;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+    background: #ffffff;
+    color: #2A1E17;
+    transform: scale(1.05);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   12. BLOG / NEWS SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.blog-section {
+    background-color: #ffffff;
+    color: #5D4037;
+    padding: 4rem 3rem;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.blog-header h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #5D4037;
+    margin-bottom: 0.5rem;
+}
+
+.blog-header p {
+    font-size: 1rem;
+    color: #6B4F3A;
+    margin-bottom: 3rem;
+}
+
+.blog-slider {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.blog-slide {
+    display: none;
+    align-items: center;
+    gap: 3rem;
+    animation: fadeSlideIn 0.6s ease-out;
+}
+
+.blog-slide.active { display: flex; }
+
+.blog-text {
+    flex: 1;
+    text-align: left;
+}
+
+.blog-text i {
+    font-size: 2.5rem;
+    color: #b8957a;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.blog-text h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #5D4037;
+    margin-bottom: 1rem;
+}
+
+.blog-text p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #6B4F3A;
+    margin-bottom: 0.6rem;
+}
+
+.blog-date {
+    display: inline-block;
+    margin-top: 1.2rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #b8957a;
+    font-weight: 600;
+}
+
+.blog-image { flex: 1; }
+
+.blog-image img {
+    width: 85%;
+    height: 80vh;
+    object-fit: cover;
+    box-shadow: 0 12px 40px rgba(93, 64, 55, 0.15);
+    display: block;
+}
+
+.blog-video {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.blog-video video {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.65);
+    border-radius: 0;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   13. DISCOUNT SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.discount-section {
+    background-color: #ffffff;
+    color: #5D4037;
+    padding: 4rem 3rem;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.discount-section .blog-header h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #5D4037;
+    margin-bottom: 0.5rem;
+}
+
+.discount-section .blog-header p {
+    font-size: 1rem;
+    color: #6B4F3A;
+    margin-bottom: 3rem;
+}
+
+.discount-section .blog-slide {
+    flex-direction: row-reverse;
+}
+
+.discount-section .blog-image img {
+    height: 60vh;
+}
+
+.discount-timer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin: 2rem 0 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+.timer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F7F1EA;
+    padding: 0.8rem 1.2rem;
+    border-radius: 12px;
+    min-width: 75px;
+    box-shadow: 0 4px 12px rgba(93, 64, 55, 0.08);
+    border: 1px solid rgba(184, 149, 122, 0.25);
+}
+
+.timer-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #b8957a;
+    line-height: 1;
+}
+
+.timer-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #6B4F3A;
+    margin-top: 0.3rem;
+    font-weight: 600;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   14. IMAGE SLIDER (Discount Section)
+   ═══════════════════════════════════════════════════════════════════ */
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.image-slider {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(93, 64, 55, 0.15);
+    border-radius: 4px;
+    flex: 1;
+}
+
+.image-slider .slider-img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    display: block;
+}
+
+.image-slider .slider-img.active { opacity: 1; }
+
+.slider-arrow {
+    background: #b8957a;
+    color: #fff;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.slider-arrow:hover {
+    background: #5D4037;
+    transform: scale(1.1);
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 5;
+}
+
+.slider-dots .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.slider-dots .dot.active {
+    background: #b8957a;
+    width: 24px;
+    border-radius: 5px;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   15. PARALLAX GALLERY
+   ═══════════════════════════════════════════════════════════════════ */
+.parallax-gallery {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+.parallax-panel {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    transition: flex 0.8s cubic-bezier(0.5, 0, 0, 1);
+    cursor: pointer;
+}
+
+.parallax-panel img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform 1.5s ease, filter 0.5s ease;
+    filter: brightness(0.55);
+}
+
+.parallax-overlay {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    right: 2rem;
+    color: #ffffff;
+    z-index: 10;
+    text-align: left;
+    transition: transform 0.5s ease;
+}
+
+.parallax-overlay h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.8rem;
+    color: #b8957a;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.parallax-overlay p {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   16. PARALLAX SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.plx-wrapper {
+    position: relative;
+    height: 260vh;
+    background: #0f0b08;
+}
+
+.plx-sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.plx-bg {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: 1;
+    will-change: transform;
+}
+
+.plx-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.5) contrast(1.05) saturate(0.85);
+}
+
+.plx-vignette {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            ellipse 60% 55% at 50% 55%,
+            rgba(15, 11, 8, 0) 0%,
+            rgba(15, 11, 8, 0.75) 60%,
+            rgba(15, 11, 8, 0.98) 100%
+        ),
+        linear-gradient(
+            to bottom,
+            rgba(15, 11, 8, 0.85) 0%,
+            rgba(15, 11, 8, 0) 25%,
+            rgba(15, 11, 8, 0) 75%,
+            rgba(15, 11, 8, 0.9) 100%
+        );
+    z-index: 2;
+    pointer-events: none;
+}
+
+.plx-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    pointer-events: none;
+    will-change: transform, opacity, filter, width, height;
+    transform-origin: center;
+    transition:
+        transform 0.9s cubic-bezier(0.65, 0, 0.35, 1),
+        opacity 0.9s ease,
+        filter 0.9s ease,
+        width 0.9s cubic-bezier(0.65, 0, 0.35, 1),
+        height 0.9s cubic-bezier(0.65, 0, 0.35, 1),
+        border-radius 0.9s ease,
+        box-shadow 0.9s ease;
+}
+
+.plx-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.plx-frame-tag {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.2rem 1rem;
+    background: linear-gradient(to top, rgba(15, 11, 8, 0.95), transparent);
+    color: #b8957a;
+    font-size: 0.7rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.4s ease 0.3s;
+    pointer-events: none;
+}
+
+.plx-item.pos-center .plx-frame-tag { opacity: 1; }
+
+.plx-item.pos-left {
+    width: clamp(180px, 20%, 300px);
+    height: 55%;
+    transform: translate3d(calc(-50% - 32vw), calc(-50% - 4vh), 0);
+    opacity: 0.5;
+    filter: blur(2px) brightness(0.75);
+    border-radius: 18px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+    z-index: 3;
+}
+
+.plx-item.pos-center {
+    width: clamp(300px, 26vw, 420px);
+    height: clamp(380px, 32vw, 540px);
+    transform: translate3d(-50%, calc(-50% + 8vh), 0);
+    opacity: 1;
+    filter: blur(0) brightness(1.15) contrast(1.08) saturate(1.1);
+    border-radius: 20px;
+    box-shadow:
+        0 60px 120px rgba(0, 0, 0, 0.85),
+        0 0 0 1px rgba(184, 149, 122, 0.5),
+        0 0 120px rgba(184, 149, 122, 0.25),
+        0 0 40px rgba(184, 149, 122, 0.15);
+    z-index: 4;
+}
+
+.plx-item.pos-right {
+    width: clamp(180px, 20%, 300px);
+    height: 55%;
+    transform: translate3d(calc(-50% + 32vw), calc(-50% - 4vh), 0);
+    opacity: 0.5;
+    filter: blur(2px) brightness(0.75);
+    border-radius: 18px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+    z-index: 3;
+}
+
+.plx-arrow {
+    position: absolute;
+    top: calc(50% - 4vh);
+    transform: translateY(-50%);
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: rgba(15, 11, 8, 0.55);
+    border: 1px solid rgba(184, 149, 122, 0.45);
+    color: #b8957a;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.plx-arrow:hover {
+    background: #b8957a;
+    color: #0f0b08;
+    border-color: #b8957a;
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 0 40px rgba(184, 149, 122, 0.55);
+}
+
+.plx-arrow:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.plx-arrow-left  { left: 22vw;  }
+.plx-arrow-right { right: 22vw; }
+
+.plx-content {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 5;
+    pointer-events: none;
+    text-shadow: 0 6px 30px rgba(0, 0, 0, 0.9);
+    width: 100%;
+}
+
+.plx-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 8vw, 6.5rem);
+    letter-spacing: 0.28em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+    line-height: 1;
+}
+
+.plx-tagline {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #b8957a;
+    font-weight: 500;
+}
+
+.plx-scroll-hint {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.7rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    text-align: center;
+    pointer-events: none;
+}
+
+.plx-scroll-hint span {
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+.plx-scroll-hint i {
+    font-size: 0.9rem;
+    color: #b8957a;
+    animation: plxBounce 2s ease-in-out infinite;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   17. CONTACT SECTION
+   ═══════════════════════════════════════════════════════════════════ */
+.contact-section {
+    background-color: #1f1a17;
+    padding: 6rem 4rem;
+    position: relative;
+    z-index: 5;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.contact-header h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: #b8957a;
+    margin-bottom: 0.8rem;
+}
+
+.contact-header p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.contact-map {
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(184, 149, 122, 0.25);
+    transition: box-shadow 0.3s ease;
+}
+
+.contact-map:hover {
+    box-shadow:
+        0 24px 70px rgba(0, 0, 0, 0.7),
+        0 0 0 1px rgba(184, 149, 122, 0.5);
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    filter: brightness(0.9) contrast(1.05) saturate(0.85);
+    transition: filter 0.3s ease;
+}
+
+.contact-map:hover iframe {
+    filter: brightness(1) contrast(1.05) saturate(1);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.contact-item i {
+    font-size: 1.4rem;
+    color: #b8957a;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(184, 149, 122, 0.12);
+    border-radius: 10px;
+    border: 1px solid rgba(184, 149, 122, 0.25);
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
+.contact-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+.contact-item p {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+}
+
+.contact-item a {
+    color: #b8957a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover { color: #ffffff; }
+
+.contact-directions {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    background: #b8957a;
+    color: #1f1a17;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: 1rem;
+    box-shadow: 0 8px 24px rgba(184, 149, 122, 0.25);
+}
+
+.contact-directions:hover {
+    background: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   18. FOOTER
+   ═══════════════════════════════════════════════════════════════════ */
+.site-footer {
+    position: relative;
+    background: #0f0b08;
+    padding: 5rem 4rem 2rem 4rem;
+    color: rgba(255, 255, 255, 0.75);
+    overflow: hidden;
+    z-index: 5;
+    border-top: 1px solid rgba(184, 149, 122, 0.2);
+}
+
+.footer-glow {
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 300px;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(184, 149, 122, 0.18) 0%,
+        transparent 70%
+    );
+    pointer-events: none;
+    z-index: 0;
+}
+
+.footer-inner {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.2fr 1.5fr;
+    gap: 3rem;
+    max-width: 1300px;
+    margin: 0 auto 4rem auto;
+}
+
+.footer-col h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 0.7rem;
+}
+
+.footer-col h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 2px;
+    background: #b8957a;
+    border-radius: 2px;
+}
+
+.footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo .icon-letter {
+    font-size: 2.2rem;
+    color: #b8957a;
+    margin-right: 0.15rem;
+}
+
+.footer-tagline {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: #b8957a;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.footer-blurb {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1.8rem;
+    max-width: 320px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.footer-social a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(184, 149, 122, 0.25);
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+    background: #b8957a;
+    color: #0f0b08;
+    border-color: #b8957a;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(184, 149, 122, 0.3);
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+.footer-links a::before {
+    content: '→';
+    position: absolute;
+    left: -20px;
+    opacity: 0;
+    color: #b8957a;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #b8957a;
+    transform: translateX(16px);
+}
+
+.footer-links a:hover::before {
+    opacity: 1;
+    left: -16px;
+}
+
+.footer-info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-info li {
+    display: flex;
+    gap: 0.9rem;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.footer-info i {
+    color: #b8957a;
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+    width: 16px;
+    flex-shrink: 0;
+}
+
+.footer-info a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-info a:hover { color: #b8957a; }
+
+.footer-news-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1.2rem;
+}
+
+.footer-news {
+    display: flex;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(184, 149, 122, 0.3);
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.footer-news:focus-within {
+    border-color: #b8957a;
+    box-shadow: 0 0 0 3px rgba(184, 149, 122, 0.15);
+}
+
+.footer-news input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 0.9rem 1.2rem;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    outline: none;
+    min-width: 0;
+}
+
+.footer-news input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-news-btn {
+    background: #b8957a;
+    color: #0f0b08;
+    border: none;
+    padding: 0 1.4rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.footer-news-btn:hover {
+    background: #ffffff;
+    color: #0f0b08;
+}
+
+.footer-bottom {
+    position: relative;
+    z-index: 1;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(184, 149, 122, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: 0.05em;
+}
+
+.footer-credit i {
+    color: #b8957a;
+    margin: 0 0.2rem;
+    font-size: 0.75rem;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   19. BACK-TO-TOP BUTTON
+   ═══════════════════════════════════════════════════════════════════ */
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #b8957a;
+    color: #1f1a17;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.35s ease;
+    z-index: 999;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.back-to-top:hover {
+    background: #ffffff;
+    transform: translateY(-3px);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   20. REVEAL ANIMATIONS
+   ═══════════════════════════════════════════════════════════════════ */
+.reveal-left,
+.reveal-right {
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.reveal-left  { transform: translateX(-50px); }
+.reveal-right { transform: translateX(50px);  }
+
+.reveal-left.active,
+.reveal-right.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   21. RTL SUPPORT (Arabic / Kurdish)
+   ═══════════════════════════════════════════════════════════════════ */
+
+html[dir="rtl"] .headline,
+html[dir="rtl"] .sub-headline,
+html[dir="rtl"] .description,
+html[dir="rtl"] .nav-links a,
+html[dir="rtl"] .cta-button,
+html[dir="rtl"] .hero-eyebrow,
+html[dir="rtl"] .split-left h2,
+html[dir="rtl"] .split-left p,
+html[dir="rtl"] .about-text h2,
+html[dir="rtl"] .about-text p,
+html[dir="rtl"] .shop-header h2,
+html[dir="rtl"] .shop-header p,
+html[dir="rtl"] .shop-header-sub h2,
+html[dir="rtl"] .shop-card h3,
+html[dir="rtl"] .shop-card p,
+html[dir="rtl"] .add-btn,
+html[dir="rtl"] .blog-header h2,
+html[dir="rtl"] .blog-header p,
+html[dir="rtl"] .blog-text h3,
+html[dir="rtl"] .blog-text p,
+html[dir="rtl"] .blog-date,
+html[dir="rtl"] .video-content h2,
+html[dir="rtl"] .video-content p,
+html[dir="rtl"] .plx-tagline,
+html[dir="rtl"] .plx-scroll-hint,
+html[dir="rtl"] .contact-header h2,
+html[dir="rtl"] .contact-header p,
+html[dir="rtl"] .contact-item h3,
+html[dir="rtl"] .contact-item p,
+html[dir="rtl"] .contact-directions,
+html[dir="rtl"] .timer-label,
+html[dir="rtl"] .footer-tagline,
+html[dir="rtl"] .footer-blurb,
+html[dir="rtl"] .footer-col h4,
+html[dir="rtl"] .footer-links a,
+html[dir="rtl"] .footer-info,
+html[dir="rtl"] .footer-news-text,
+html[dir="rtl"] .footer-news input,
+html[dir="rtl"] .footer-news-btn,
+html[dir="rtl"] .footer-bottom p,
+html[dir="rtl"] .lang-native {
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+}
+
+html[dir="rtl"] body {
+    font-family: 'Tajawal', 'Cairo', 'IBM Plex Sans Arabic', 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+html[dir="rtl"] body,
+html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] h3, html[dir="rtl"] h4,
+html[dir="rtl"] p,  html[dir="rtl"] a,  html[dir="rtl"] button,
+html[dir="rtl"] input, html[dir="rtl"] span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+}
+
+html[dir="rtl"] .logo {
+    font-family: 'Playfair Display', serif;
+    direction: ltr;
+}
+
+html[dir="rtl"] .nav-links a {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding-bottom: 8px;
+}
+
+html[dir="rtl"] .nav-links a::after {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .content-wrapper {
+    background-image: none !important;
+    padding: 2rem 2rem 2rem 6rem !important;
+}
+
+html[dir="rtl"] .content-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/036/594/719/large_2x/ai-generated-coffee-shop-advertisment-background-with-copy-space-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    z-index: -2;
+    pointer-events: none;
+}
+
+html[dir="rtl"] .main-content {
+    max-width: 800px !important;
+    width: 100% !important;
+    align-self: flex-start !important;
+    margin: 0 !important;
+    padding: 2.5rem 0 2rem 0 !important;
+}
+
+html[dir="rtl"] .left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 100%;
+    max-width: 100%;
+    align-items: stretch;
+}
+
+html[dir="rtl"] .headline {
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+    font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+    line-height: 1.3;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    text-transform: none;
+}
+
+html[dir="rtl"] .headline .highlight {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #4a3524;
+    -webkit-text-stroke: 1px rgba(184, 149, 122, 0.35);
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+html[dir="rtl"] .hero-eyebrow {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+html[dir="rtl"] .sub-headline {
+    width: 100%;
+    text-align: right;
+    font-family: 'Amiri', serif;
+    font-weight: 400;
+    font-size: clamp(0.95rem, 1.4vw, 1.15rem);
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    font-style: normal;
+}
+
+html[dir="rtl"] .description {
+    width: 100%;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300;
+    font-size: clamp(0.85rem, 1.1vw, 0.95rem);
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+}
+
+html[dir="rtl"] .cta-button {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0;
+    text-transform: none;
+    padding: 0.9rem 2.4rem;
+    align-self: flex-start !important;
+    margin: 0 !important;
+}
+
+html[dir="rtl"] .split-left h2,
+html[dir="rtl"] .about-text h2,
+html[dir="rtl"] .video-content h2,
+html[dir="rtl"] .shop-header h2,
+html[dir="rtl"] .shop-header-sub h2,
+html[dir="rtl"] .blog-header h2,
+html[dir="rtl"] .contact-header h2,
+html[dir="rtl"] .discount-section .blog-header h2 {
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0;
+    line-height: 1.4;
+    padding-bottom: 0.3rem;
+}
+
+html[dir="rtl"] .split-left h2      { font-size: 3.4rem; }
+html[dir="rtl"] .about-text h2      { font-size: 3.4rem; }
+html[dir="rtl"] .video-content h2   { font-size: 3.8rem; }
+html[dir="rtl"] .shop-header h2     { font-size: 3.4rem; }
+html[dir="rtl"] .shop-header-sub h2 { font-size: 3rem;   }
+html[dir="rtl"] .blog-header h2     { font-size: 3rem;   }
+html[dir="rtl"] .contact-header h2  { font-size: 3.4rem; }
+
+html[dir="rtl"] .split-left p,
+html[dir="rtl"] .about-text p,
+html[dir="rtl"] .blog-text p {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    text-align: right;
+}
+
+html[dir="rtl"] .split-left p { font-size: 1.15rem; }
+html[dir="rtl"] .about-text p { font-size: 1rem;    line-height: 2; }
+html[dir="rtl"] .blog-text p  { font-size: 1rem;    line-height: 2; }
+
+html[dir="rtl"] .blog-header,
+html[dir="rtl"] .contact-header,
+html[dir="rtl"] .shop-header,
+html[dir="rtl"] .shop-header-sub,
+html[dir="rtl"] .video-content,
+html[dir="rtl"] .discount-section .blog-header {
+    text-align: center;
+}
+
+html[dir="rtl"] .blog-header h2,
+html[dir="rtl"] .blog-header p,
+html[dir="rtl"] .contact-header h2,
+html[dir="rtl"] .contact-header p,
+html[dir="rtl"] .shop-header h2,
+html[dir="rtl"] .shop-header p,
+html[dir="rtl"] .shop-header-sub h2,
+html[dir="rtl"] .shop-header-sub p,
+html[dir="rtl"] .video-content h2,
+html[dir="rtl"] .video-content p,
+html[dir="rtl"] .discount-section .blog-header h2,
+html[dir="rtl"] .discount-section .blog-header p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html[dir="rtl"] .blog-header p,
+html[dir="rtl"] .contact-header p,
+html[dir="rtl"] .shop-header p,
+html[dir="rtl"] .shop-header-sub p,
+html[dir="rtl"] .video-content p,
+html[dir="rtl"] .discount-section .blog-header p {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 2;
+}
+
+html[dir="rtl"] .video-content p { font-size: 1.15rem; }
+
+html[dir="rtl"] .shop-card h3 {
+    font-family: 'Amiri', 'Tajawal', serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.4;
+}
+
+html[dir="rtl"] .shop-card p {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.9;
+}
+
+html[dir="rtl"] .add-btn {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding: 0.65rem 1.6rem;
+}
+
+html[dir="rtl"] .price {
+    font-family: 'Playfair Display', serif;
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+html[dir="rtl"] .blog-text h3 {
+    font-family: 'Amiri', 'Tajawal', serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 1.4;
+    text-align: right;
+}
+
+html[dir="rtl"] .blog-text i  { margin-bottom: 1.2rem; }
+html[dir="rtl"] .blog-text    { text-align: right; }
+
+html[dir="rtl"] .blog-date {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+html[dir="rtl"] .timer-label {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+html[dir="rtl"] .timer-number {
+    font-family: 'Playfair Display', serif;
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+html[dir="rtl"] .discount-timer { justify-content: flex-end; }
+
+html[dir="rtl"] .plx-title {
+    font-family: 'Playfair Display', serif;
+    direction: ltr;
+}
+
+html[dir="rtl"] .plx-tagline {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+html[dir="rtl"] .plx-scroll-hint {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+html[dir="rtl"] .plx-arrow i { transform: scaleX(-1); }
+
+html[dir="rtl"] .plx-item.pos-left {
+    transform: translate3d(calc(-50% + 32vw), calc(-50% - 4vh), 0);
+}
+html[dir="rtl"] .plx-item.pos-right {
+    transform: translate3d(calc(-50% - 32vw), calc(-50% - 4vh), 0);
+}
+
+html[dir="rtl"] .contact-info {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 2rem !important;
+    padding: 1rem 0 !important;
+    direction: rtl !important;
+}
+
+html[dir="rtl"] .contact-item {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 1.2rem !important;
+    width: 100% !important;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .contact-item i {
+    flex-shrink: 0 !important;
+    margin-top: 0.4rem !important;
+}
+
+html[dir="rtl"] .contact-item > div {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .contact-item h3 {
+    font-family: 'Amiri', 'Tajawal', serif;
+    font-weight: 700;
+    font-size: 1.2rem !important;
+    line-height: 1.3 !important;
+    margin: 0 0 0.4rem 0 !important;
+    text-align: right;
+}
+
+html[dir="rtl"] .contact-item p {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    text-align: right;
+    direction: rtl !important;
+    unicode-bidi: isolate !important;
+}
+
+html[dir="rtl"] a[href^="tel:"],
+html[dir="rtl"] a[href^="https://wa.me"],
+html[dir="rtl"] .contact-item a,
+html[dir="rtl"] .footer-info a {
+    direction: ltr !important;
+    unicode-bidi: isolate !important;
+    display: inline-block;
+    text-align: right;
+}
+
+html[dir="rtl"] .contact-directions {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0;
+    text-transform: none;
+    align-self: flex-start !important;
+    margin-top: 1rem !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+html[dir="rtl"] .contact-directions i { transform: scaleX(-1); }
+
+html[dir="rtl"] .footer-tagline {
+    font-family: 'Amiri', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+html[dir="rtl"] .footer-blurb {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.95;
+    text-align: right;
+}
+
+html[dir="rtl"] .footer-brand {
+    text-align: right;
+}
+
+html[dir="rtl"] .footer-brand .footer-logo {
+    display: inline-flex !important;
+}
+
+html[dir="rtl"] .footer-logo {
+    display: inline-flex !important;
+    align-items: center;
+}
+
+html[dir="rtl"] .footer-logo .icon-letter,
+html[dir="rtl"] .logo .icon-letter {
+    margin-right: 0.15rem;
+    margin-left: 0;
+}
+
+html[dir="rtl"] .footer-social {
+    direction: ltr !important;
+    justify-content: flex-end !important;
+}
+
+html[dir="rtl"] .footer-col h4 {
+    font-family: 'Amiri', 'Tajawal', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: right !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+html[dir="rtl"] .footer-col h4::after {
+    left: auto !important;
+    right: 0 !important;
+    transform: none !important;
+}
+
+html[dir="rtl"] .footer-links {
+    align-items: flex-start !important;
+    text-align: right !important;
+    padding: 0 !important;
+}
+
+html[dir="rtl"] .footer-links li {
+    width: 100%;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .footer-links a {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.95rem;
+    display: inline-block;
+    text-align: right !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+html[dir="rtl"] .footer-links a::before {
+    content: '←';
+    left: auto;
+    right: -20px;
+}
+
+html[dir="rtl"] .footer-links a:hover {
+    transform: translateX(-16px);
+}
+
+html[dir="rtl"] .footer-links a:hover::before {
+    right: -16px;
+}
+
+html[dir="rtl"] .footer-info {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.85;
+}
+
+html[dir="rtl"] .footer-info li {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 0.9rem !important;
+    width: 100% !important;
+    text-align: right !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html[dir="rtl"] .footer-info li i {
+    flex-shrink: 0 !important;
+    margin-top: 0.35rem !important;
+    width: 16px !important;
+    text-align: center !important;
+    font-size: 0.95rem !important;
+}
+
+html[dir="rtl"] .footer-info li > span {
+    flex: 1 1 auto !important;
+    display: block !important;
+    text-align: right !important;
+    direction: rtl !important;
+    unicode-bidi: isolate !important;
+    line-height: 1.75 !important;
+    min-width: 0 !important;
+    overflow-wrap: break-word !important;
+}
+
+html[dir="rtl"] .footer-info li > a {
+    flex: 1 1 auto !important;
+    display: block !important;
+    text-align: right !important;
+    direction: ltr !important;
+    unicode-bidi: isolate !important;
+    line-height: 1.75 !important;
+    min-width: 0 !important;
+}
+
+html[dir="rtl"] .footer-news-text {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.9;
+    text-align: right;
+}
+
+html[dir="rtl"] .footer-news {
+    direction: rtl;
+}
+
+html[dir="rtl"] .footer-news input {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.95rem;
+    text-align: right;
+    direction: rtl;
+}
+
+html[dir="rtl"] .footer-news-btn i { transform: scaleX(-1); }
+
+html[dir="rtl"] .footer-bottom {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.85rem;
+}
+
+html[dir="rtl"] .lang-menu {
+    right: auto;
+    left: 0;
+    transform-origin: top left;
+}
+
+html[dir="rtl"] .lang-menu::before {
+    right: auto;
+    left: 18px;
+    border-left: none;
+    border-right: 1px solid rgba(184, 149, 122, 0.3);
+    border-radius: 0 2px 0 0;
+}
+
+html[dir="rtl"] .lang-option {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .lang-check {
+    margin-left: 0;
+    margin-right: auto;
+    transform: scaleX(-1);
+}
+
+html[dir="rtl"] .split-section,
+html[dir="rtl"] .about-section {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .logo,
+html[dir="rtl"] .logo .icon-letter,
+html[dir="rtl"] .footer-logo,
+html[dir="rtl"] .footer-logo .icon-letter,
+html[dir="rtl"] .plx-title,
+html[dir="rtl"] .price,
+html[dir="rtl"] .lang-native.en,
+html[dir="rtl"] .lang-flag {
+    direction: ltr !important;
+    unicode-bidi: isolate !important;
+}
+
+html[dir="rtl"] .social-sidebar {
+    left: 1.8rem !important;
+    right: auto !important;
+    transform: translateY(-50%) !important;
+    direction: ltr !important;
+}
+
+html[dir="rtl"] .social-icon,
+html[dir="rtl"] .social-icon i,
+html[dir="rtl"] .footer-social a,
+html[dir="rtl"] .footer-social i {
+    direction: ltr !important;
+    unicode-bidi: isolate !important;
+    transform: none !important;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   22. MOBILE RESPONSIVE
+   ═══════════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+    .shop-header,
+    .shop-header-sub,
+    .blog-header,
+    .discount-section .blog-header,
+    .contact-header,
+    .video-content,
+    .plx-content {
+        text-align: left;
+    }
+
+    .shop-header h2, .shop-header p,
+    .shop-header-sub h2,
+    .blog-header h2, .blog-header p,
+    .discount-section .blog-header h2,
+    .discount-section .blog-header p,
+    .contact-header h2, .contact-header p,
+    .video-content h2, .video-content p {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar {
+        padding: 0.9rem 1.2rem;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(15, 11, 8, 0.98);
+        padding: 1.5rem 2rem;
+        gap: 1.2rem;
+        border-bottom: 1px solid rgba(184, 149, 122, 0.3);
+        z-index: 150;
+    }
+
+    .nav-links.mobile-open {
+        display: flex;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .social-sidebar {
+        display: none;
+    }
+
+    .content-wrapper {
+        padding: 5.5rem 1.5rem 3rem 1.5rem;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .main-content {
+        padding: 1.5rem 0;
+        max-width: 100%;
+    }
+
+    .headline {
+        font-size: clamp(2rem, 9vw, 2.8rem);
+        text-align: left;
+    }
+
+    .sub-headline, .description {
+        text-align: left;
+    }
+
+    .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .split-section,
+    .about-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .split-left, .split-right,
+    .about-image, .about-text {
+        width: 100%;
+    }
+
+    .split-left, .about-text {
+        padding: 2.2rem 1.5rem;
+        text-align: left;
+    }
+
+    .split-left h2, .about-text h2 {
+        font-size: 2.3rem;
+        text-align: left;
+    }
+
+    .split-left p, .about-text p {
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .split-right, .about-image {
+        height: 280px;
+        order: -1;
+    }
+
+    .split-right img, .about-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .video-section {
+        height: 60vh;
+    }
+
+    .video-content {
+        width: 88%;
+        left: 6%;
+        transform: translateY(-50%);
+        text-align: left;
+    }
+
+    .video-content h2 {
+        font-size: 2.4rem;
+    }
+
+    .shop-section {
+        padding: 3.5rem 1.5rem;
+        background-attachment: scroll;
+    }
+
+    .shop-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .shop-card {
+        text-align: left;
+        align-items: flex-start;
+        padding: 1.2rem 1rem;
+    }
+
+    .shop-icon {
+        align-self: flex-start;
+        font-size: 2rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .shop-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .shop-card p {
+        font-size: 0.78rem;
+        line-height: 1.4;
+        margin-bottom: 0.8rem;
+    }
+
+    .price {
+        font-size: 1.1rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .add-btn {
+        padding: 0.45rem 1rem;
+        font-size: 0.65rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-section, .discount-section {
+        padding: 3rem 1.2rem;
+    }
+
+    .blog-slider {
+        padding: 0 6px;
+    }
+
+    .blog-slide,
+    .discount-section .blog-slide {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: left;
+    }
+
+    .blog-text {
+        text-align: left;
+    }
+
+    .blog-image,
+    .discount-section .blog-image {
+        width: 100%;
+    }
+
+    .blog-image img,
+    .discount-section .blog-image img {
+        width: 100%;
+        height: 240px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .blog-video video {
+        height: 240px;
+        border-radius: 12px;
+    }
+
+    .discount-timer {
+        justify-content: flex-start;
+        gap: 0.7rem;
+    }
+
+    .timer-block {
+        min-width: 60px;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .timer-number {
+        font-size: 1.6rem;
+    }
+
+    .image-slider {
+        height: 220px;
+        border-radius: 12px;
+    }
+
+    .slider-wrapper {
+        gap: 0.6rem;
+    }
+
+    .slider-arrow {
+        width: 36px;
+        height: 36px;
+    }
+
+    .parallax-gallery {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .parallax-panel {
+        flex: none !important;
+        height: 220px;
+    }
+
+    .parallax-overlay {
+        bottom: 1.2rem;
+        left: 1.2rem;
+        right: 1.2rem;
+        text-align: left;
+    }
+
+    .parallax-overlay h3 {
+        font-size: 1.8rem;
+    }
+
+    .plx-wrapper {
+        height: auto;
+    }
+
+    .plx-sticky {
+        position: relative;
+        height: 68vh;
+    }
+
+    .plx-item.pos-left,
+    .plx-item.pos-right {
+        display: none;
+    }
+
+    .plx-item.pos-center {
+        width: 78vw;
+        height: 58vh;
+    }
+
+    .plx-arrow-left  { left: 4vw; }
+    .plx-arrow-right { right: 4vw; }
+
+    .plx-title {
+        font-size: clamp(2.2rem, 10vw, 3.2rem);
+        letter-spacing: 0.14em;
+    }
+
+    .plx-content {
+        left: 5%;
+        transform: none;
+        width: 90%;
+        text-align: left;
+    }
+
+    .contact-section {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .contact-header {
+        text-align: left;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact-map {
+        height: 260px;
+    }
+
+    .contact-directions {
+        width: 100%;
+        text-align: center;
+    }
+
+    .site-footer {
+        padding: 3.5rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .footer-col,
+    .footer-brand {
+        text-align: left;
+    }
+
+    .footer-social {
+        justify-content: flex-start;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .back-to-top {
+        bottom: calc(1.2rem + env(safe-area-inset-bottom, 0px));
+        right: 1.2rem;
+        width: 44px;
+        height: 44px;
+    }
+}
+
+@media (max-width: 480px) {
+    .headline { font-size: 2rem; }
+    .split-left h2, .about-text h2 { font-size: 2rem; }
+    .shop-grid { gap: 0.7rem; }
+    .shop-card { padding: 1rem 0.8rem; }
+    .shop-card h3 { font-size: 1rem; }
+    .plx-item.pos-center { width: 88vw; height: 50vh; }
+    .video-content h2 { font-size: 2rem; }
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .nav-links {
+        left: 0;
+        right: 0;
+    }
+
+    html[dir="rtl"] .social-sidebar {
+        display: none;
+    }
+
+    html[dir="rtl"] .content-wrapper {
+        padding: 5.5rem 1.25rem 3rem 1.25rem !important;
+        min-height: 100svh;
+        height: auto;
+    }
+
+    html[dir="rtl"] .main-content {
+        max-width: 100% !important;
+        width: 100% !important;
+        align-self: stretch !important;
+        padding: 1.5rem 0 !important;
+        margin: 0 !important;
+    }
+
+    html[dir="rtl"] .left-content {
+        width: 100%;
+        max-width: 100%;
+        align-items: stretch;
+    }
+
+    html[dir="rtl"] .headline,
+    html[dir="rtl"] .sub-headline,
+    html[dir="rtl"] .description {
+        width: 100%;
+        max-width: 100%;
+        text-align: right;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    html[dir="rtl"] .cta-button {
+        align-self: stretch !important;
+        width: 100% !important;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 !important;
+    }
+
+    html[dir="rtl"] .split-section,
+    html[dir="rtl"] .about-section {
+        flex-direction: column !important;
+    }
+
+    html[dir="rtl"] .split-left,
+    html[dir="rtl"] .about-text {
+        text-align: right;
+        padding: 2.2rem 1.5rem !important;
+    }
+
+    html[dir="rtl"] .split-left h2,
+    html[dir="rtl"] .about-text h2,
+    html[dir="rtl"] .split-left p,
+    html[dir="rtl"] .about-text p {
+        text-align: right;
+    }
+
+    html[dir="rtl"] .shop-header,
+    html[dir="rtl"] .blog-header,
+    html[dir="rtl"] .contact-header,
+    html[dir="rtl"] .video-content,
+    html[dir="rtl"] .plx-content {
+        text-align: right;
+    }
+
+    html[dir="rtl"] .shop-card {
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    html[dir="rtl"] .blog-slide,
+    html[dir="rtl"] .discount-section .blog-slide {
+        text-align: right;
+    }
+}
+
+@media (max-width: 380px) {
+    html[dir="rtl"] .content-wrapper {
+        padding: 5rem 1rem 2.5rem 1rem !important;
+    }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   24. BLOG · DISCOUNT — TYPOGRAPHY & LAYOUT REDESIGN
+   ═══════════════════════════════════════════════════════════════════ */
+
+.blog-section {
+    padding: 5rem 1.5rem 5.5rem;
+    background: linear-gradient(180deg, #ffffff 0%, #faf4ea 100%);
+    text-align: center;
+}
+
+.discount-section {
+    padding: 5rem 1.5rem 5.5rem;
+    background: linear-gradient(180deg, #faf4ea 0%, #f2e5d3 100%);
+}
+
+.blog-header {
+    position: relative;
+    max-width: 640px;
+    margin: 0 auto 3.5rem;
+    padding-bottom: 1.75rem;
+}
+
+.blog-header::before {
+    content: 'ODOR COFFEE · JOURNAL';
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    color: #b8957a;
+    margin-bottom: 0.9rem;
+    opacity: 0.85;
+}
+
+.blog-header h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: clamp(2.1rem, 4.5vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1.15;
+    color: #3a2a1e;
+    margin: 0 0 1rem 0;
+    letter-spacing: -0.005em;
+}
+
+.blog-header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #7a5a44;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0;
+    opacity: 0.95;
+}
+
+.blog-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 72px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #c9a87e 50%, transparent);
+    border-radius: 2px;
+}
+
+.discount-section .blog-header::before {
+    content: 'LIMITED EDITION · OFFER';
+    color: #c67a3f;
+}
+
+.blog-slide {
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.blog-text i {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    color: #b8957a;
+    background: linear-gradient(150deg, #fbf6ef 0%, #f3e4d0 100%);
+    border: 1px solid rgba(201, 168, 126, 0.45);
+    border-radius: 18px;
+    box-shadow:
+        0 10px 24px rgba(93, 64, 55, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    margin: 0 !important;
+    position: relative;
+}
+
+.blog-text i::after {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 22px;
+    border: 1px solid rgba(201, 168, 126, 0.2);
+    pointer-events: none;
+}
+
+.blog-text h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
+    font-weight: 700;
+    line-height: 1.25;
+    color: #2e2016;
+    letter-spacing: -0.015em;
+    margin: 0;
+    padding-left: 1.25rem;
+    position: relative;
+}
+
+.blog-text h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.15em;
+    bottom: 0.15em;
+    width: 3px;
+    background: linear-gradient(180deg, #c9a87e 0%, #b8957a 100%);
+    border-radius: 2px;
+}
+
+.blog-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.95;
+    color: #59422f;
+    margin: 0;
+    letter-spacing: 0.003em;
+    max-width: 60ch;
+}
+
+.blog-date {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #8a6a52;
+    background: rgba(201, 168, 126, 0.1);
+    border: 1px solid rgba(201, 168, 126, 0.32);
+    padding: 0.6rem 1.1rem;
+    border-radius: 60px;
+    margin: 0;
+    line-height: 1;
+    align-self: flex-start;
+    transition: all 0.35s ease;
+}
+
+.blog-date::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #b8957a;
+    box-shadow: 0 0 8px rgba(184, 149, 122, 0.8);
+    flex-shrink: 0;
+}
+
+.blog-date:hover {
+    background: rgba(201, 168, 126, 0.18);
+    border-color: rgba(201, 168, 126, 0.55);
+    transform: translateY(-1px);
+}
+
+.discount-timer {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 420px;
+    margin: 0.5rem 0 0.5rem 0;
+    justify-content: flex-start;
+    flex-wrap: nowrap !important;
+}
+
+.timer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem 0.4rem;
+    min-width: 0;
+    border-radius: 14px;
+    background: linear-gradient(160deg, #ffffff 0%, #f5ebdc 100%);
+    border: 1px solid rgba(201, 168, 126, 0.3);
+    box-shadow:
+        0 6px 16px rgba(93, 64, 55, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.85);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timer-block:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 10px 22px rgba(93, 64, 55, 0.14),
+        inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.timer-number {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.4rem, 4.5vw, 1.9rem);
+    font-weight: 700;
+    color: #b8957a;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.timer-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8a6a52;
+    margin-top: 0.4rem;
+    line-height: 1;
+}
+
+.discount-section .blog-text h3::before {
+    background: linear-gradient(180deg, #e0a56a 0%, #c67a3f 100%);
+}
+
+@media (max-width: 768px) {
+
+    .blog-section,
+    .discount-section {
+        padding: 3.5rem 1.35rem 4rem;
+    }
+
+    .blog-header {
+        margin: 0 auto 2.25rem;
+        padding-bottom: 1.4rem;
+    }
+    .blog-header::before {
+        font-size: 0.55rem;
+        letter-spacing: 0.3em;
+        margin-bottom: 0.75rem;
+    }
+    .blog-header h2 {
+        font-size: clamp(1.9rem, 7.5vw, 2.4rem);
+        line-height: 1.15;
+        margin-bottom: 0.75rem;
+    }
+    .blog-header p {
+        font-size: 0.7rem;
+        letter-spacing: 0.1em;
+        line-height: 1.55;
+    }
+    .blog-header::after {
+        width: 56px;
+    }
+
+    .blog-slide,
+    .discount-section .blog-slide {
+        flex-direction: column-reverse;
+        gap: 1.75rem;
+        text-align: left;
+    }
+    .blog-text {
+        gap: 1.2rem;
+        text-align: left;
+    }
+
+    .blog-text i {
+        width: 48px;
+        height: 48px;
+        font-size: 1.15rem;
+        border-radius: 14px;
+    }
+    .blog-text i::after {
+        inset: -3px;
+        border-radius: 17px;
+    }
+
+    .blog-text h3 {
+        font-size: clamp(1.4rem, 6vw, 1.7rem);
+        line-height: 1.3;
+        padding-left: 1rem;
+    }
+    .blog-text h3::before {
+        width: 2.5px;
+    }
+
+    .blog-text p {
+        font-size: 0.9rem;
+        line-height: 1.85;
+    }
+
+    .blog-date {
+        font-size: 0.62rem;
+        padding: 0.55rem 0.95rem;
+        letter-spacing: 0.16em;
+    }
+    .blog-date::before {
+        width: 5px;
+        height: 5px;
+    }
+
+    .discount-timer {
+        gap: 0.4rem;
+        max-width: 100%;
+        margin: 0.25rem 0;
+    }
+    .timer-block {
+        padding: 0.7rem 0.25rem;
+        border-radius: 11px;
+    }
+    .timer-number {
+        font-size: clamp(1.1rem, 5vw, 1.35rem);
+    }
+    .timer-label {
+        font-size: 0.5rem;
+        letter-spacing: 0.1em;
+        margin-top: 0.3rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .blog-header h2 { font-size: 1.75rem; }
+    .blog-text h3   { font-size: 1.3rem; }
+    .blog-text p    { font-size: 0.86rem; }
+    .timer-block    { padding: 0.6rem 0.2rem; }
+    .timer-number   { font-size: 1rem; }
+    .timer-label    { font-size: 0.45rem; letter-spacing: 0.06em; }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   25. RTL BLOG HEADING — Bar on the RIGHT
+   ═══════════════════════════════════════════════════════════════════ */
+html[dir="rtl"] .blog-text {
+    text-align: right;
+    align-items: flex-end;
+}
+
+html[dir="rtl"] .blog-text h3 {
+    font-family: 'Amiri', 'Tajawal', serif;
+    font-weight: 700;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 1.25rem;
+}
+
+html[dir="rtl"] .blog-text h3::before {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .blog-text p {
+    text-align: right;
+}
+
+html[dir="rtl"] .blog-text i,
+html[dir="rtl"] .blog-date {
+    align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .blog-text h3 {
+        text-align: right;
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+
+    html[dir="rtl"] .blog-text h3::before {
+        left: auto;
+        right: 0;
+    }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   26. RTL — SHOP HEADER · PARALLAX · DISCOUNT MIRROR
+   ═══════════════════════════════════════════════════════════════════ */
+
+html[dir="rtl"] .shop-header {
+    position: relative;
+    text-align: right;
+    padding-bottom: 1.75rem;
+}
+
+html[dir="rtl"] .shop-header::before {
+    content: 'ODOR COFFEE · MENU';
+    display: block;
+    font-family: 'Tajawal', 'Inter', sans-serif;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    color: #b8957a;
+    margin-bottom: 0.9rem;
+    opacity: 0.85;
+    text-align: right;
+}
+
+html[dir="rtl"] .shop-header h2 {
+    text-align: right;
+    font-family: 'Amiri', 'Tajawal', serif;
+    font-weight: 700;
+}
+
+html[dir="rtl"] .shop-header p {
+    text-align: right;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+html[dir="rtl"] .shop-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    width: 72px;
+    height: 2px;
+    background: linear-gradient(270deg, #c9a87e 0%, transparent 100%);
+    border-radius: 2px;
+}
+
+html[dir="rtl"] .shop-header-sub {
+    text-align: right;
+}
+html[dir="rtl"] .shop-header-sub h2,
+html[dir="rtl"] .shop-header-sub p {
+    text-align: right;
+}
+
+html[dir="rtl"] .parallax-overlay {
+    text-align: right;
+    left: 2rem;
+    right: 2rem;
+}
+
+html[dir="rtl"] .parallax-overlay h3,
+html[dir="rtl"] .parallax-overlay p {
+    text-align: right;
+}
+
+html[dir="rtl"] .discount-section .blog-text {
+    text-align: right;
+    align-items: flex-end;
+}
+
+html[dir="rtl"] .discount-section .blog-text h3 {
+    font-family: 'Amiri', 'Tajawal', serif;
+    font-weight: 700;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 1.25rem;
+}
+
+html[dir="rtl"] .discount-section .blog-text h3::before {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .discount-section .blog-text p {
+    text-align: right;
+}
+
+html[dir="rtl"] .discount-section .blog-text i,
+html[dir="rtl"] .discount-section .blog-date {
+    align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+
+    html[dir="rtl"] .shop-header { text-align: right; }
+
+    html[dir="rtl"] .shop-header h2 {
+        font-size: clamp(1.9rem, 7.5vw, 2.4rem);
+        text-align: right;
+    }
+
+    html[dir="rtl"] .shop-header p {
+        font-size: 0.7rem;
+        text-align: right;
+    }
+
+    html[dir="rtl"] .shop-header::before {
+        font-size: 0.55rem;
+        letter-spacing: 0.3em;
+        text-align: right;
+    }
+
+    html[dir="rtl"] .shop-header::after {
+        right: 0;
+        left: auto;
+        width: 56px;
+        background: linear-gradient(270deg, #c9a87e 0%, transparent 100%);
+    }
+
+    html[dir="rtl"] .shop-header-sub { text-align: right; }
+    html[dir="rtl"] .shop-header-sub h2,
+    html[dir="rtl"] .shop-header-sub p { text-align: right; }
+
+    html[dir="rtl"] .parallax-overlay { text-align: right; }
+    html[dir="rtl"] .parallax-overlay h3,
+    html[dir="rtl"] .parallax-overlay p { text-align: right; }
+
+    html[dir="rtl"] .discount-section .blog-text h3 {
+        padding-right: 1rem;
+        padding-left: 0;
+        text-align: right;
+    }
+    html[dir="rtl"] .discount-section .blog-text h3::before {
+        right: 0;
+        left: auto;
+    }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   29. RTL BLOG & DISCOUNT HEADER — ICON + HEADING ON RIGHT
+   ═══════════════════════════════════════════════════════════════════ */
+
+html[dir="rtl"] .blog-text,
+html[dir="rtl"] .discount-section .blog-text {
+    direction: rtl;
+    align-items: flex-start;
+    text-align: right;
+    gap: 1.75rem;
+}
+
+html[dir="rtl"] .blog-text i,
+html[dir="rtl"] .discount-section .blog-text i {
+    align-self: flex-start;
+    margin: 0;
+}
+
+html[dir="rtl"] .blog-text h3,
+html[dir="rtl"] .discount-section .blog-text h3 {
+    direction: rtl;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 1.25rem;
+    align-self: flex-start;
+    position: relative;
+}
+
+html[dir="rtl"] .blog-text h3::before,
+html[dir="rtl"] .discount-section .blog-text h3::before {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .blog-text p,
+html[dir="rtl"] .discount-section .blog-text p {
+    direction: rtl;
+    text-align: right;
+    align-self: stretch;
+    width: 100%;
+    max-width: 100%;
+}
+
+html[dir="rtl"] .blog-text .blog-date,
+html[dir="rtl"] .discount-section .blog-text .blog-date {
+    align-self: flex-start;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .blog-text,
+    html[dir="rtl"] .discount-section .blog-text {
+        direction: rtl;
+        align-items: flex-start;
+        text-align: right;
+    }
+
+    html[dir="rtl"] .blog-text i,
+    html[dir="rtl"] .discount-section .blog-text i {
+        align-self: flex-start;
+    }
+
+    html[dir="rtl"] .blog-text h3,
+    html[dir="rtl"] .discount-section .blog-text h3 {
+        direction: rtl;
+        text-align: right;
+        padding-left: 0;
+        padding-right: 1rem;
+        align-self: flex-start;
+    }
+
+    html[dir="rtl"] .blog-text h3::before,
+    html[dir="rtl"] .discount-section .blog-text h3::before {
+        left: auto;
+        right: 0;
+    }
+
+    html[dir="rtl"] .blog-text p,
+    html[dir="rtl"] .discount-section .blog-text p {
+        direction: rtl;
+        text-align: right;
+        align-self: stretch;
+        width: 100%;
+    }
+
+    html[dir="rtl"] .blog-text .blog-date,
+    html[dir="rtl"] .discount-section .blog-text .blog-date {
+        align-self: flex-start;
+    }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   30. RTL SHOP HEADER — BACK TO CENTERED
+   ═══════════════════════════════════════════════════════════════════ */
+
+html[dir="rtl"] .shop-header {
+    text-align: center;
+    padding-bottom: 1.75rem;
+    position: relative;
+}
+
+html[dir="rtl"] .shop-header::before {
+    text-align: center;
+}
+
+html[dir="rtl"] .shop-header h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html[dir="rtl"] .shop-header p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html[dir="rtl"] .shop-header::after {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: 72px;
+    background: linear-gradient(90deg, transparent, #c9a87e 50%, transparent);
+}
+
+html[dir="rtl"] .shop-header-sub {
+    text-align: center;
+}
+html[dir="rtl"] .shop-header-sub h2,
+html[dir="rtl"] .shop-header-sub p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .shop-header {
+        text-align: center;
+    }
+    html[dir="rtl"] .shop-header h2,
+    html[dir="rtl"] .shop-header p,
+    html[dir="rtl"] .shop-header::before {
+        text-align: center;
+    }
+    html[dir="rtl"] .shop-header::after {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        width: 56px;
+        background: linear-gradient(90deg, transparent, #c9a87e 50%, transparent);
+    }
+    html[dir="rtl"] .shop-header-sub,
+    html[dir="rtl"] .shop-header-sub h2,
+    html[dir="rtl"] .shop-header-sub p {
+        text-align: center;
+    }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   32. HIDE THE ORPHANED VIDEO SLIDE
+   ═══════════════════════════════════════════════════════════════════ */
+
+.blog-slide:has(.blog-video) {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.blog-video {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.blog-video video {
+    display: none !important;
+    height: 0 !important;
+}
+
+.blog-slide:empty,
+.blog-slide:not(:has(*)) {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.shop-section + .blog-slide,
+.blog-slide + .parallax-gallery {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   33. RTL SHOP CARDS — MATCH ENGLISH FONT & SIZES
+   ═══════════════════════════════════════════════════════════════════ */
+
+html[dir="rtl"] .shop-card h3 {
+    font-family: 'Amiri', 'Tajawal', serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.35;
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+html[dir="rtl"] .shop-card p {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+html[dir="rtl"] .price {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #b8957a;
+    margin-bottom: 1rem;
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+html[dir="rtl"] .add-btn {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0;
+    text-transform: none;
+    padding: 0.6rem 1.5rem;
+}
+
+html[dir="rtl"] .shop-icon {
+    font-size: 3rem;
+    color: #b8957a;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .shop-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    html[dir="rtl"] .shop-card p {
+        font-size: 0.78rem;
+        line-height: 1.4;
+        margin-bottom: 0.8rem;
+    }
+
+    html[dir="rtl"] .price {
+        font-size: 1.1rem;
+        margin-bottom: 0.6rem;
+    }
+
+    html[dir="rtl"] .add-btn {
+        font-size: 0.65rem;
+        padding: 0.45rem 1rem;
+    }
+
+    html[dir="rtl"] .shop-icon {
+        font-size: 2rem;
+        margin-bottom: 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    html[dir="rtl"] .shop-card h3 {
+        font-size: 1rem;
+    }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   34. RTL HERO — MATCH ENGLISH SIZE
+   English: clamp(2.2rem, 5.4vw, 4.6rem), line-height 0.98
+   Old RTL rule (section 21.3): clamp(1.6rem, 3.2vw, 2.6rem) — too small
+   This block overrides it because it comes last in the file.
+   ═══════════════════════════════════════════════════════════════════ */
+
+html[dir="rtl"] .headline {
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+    font-size: clamp(2.1rem, 5.2vw, 4.4rem);
+    line-height: 1.15;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-align: right;
+    text-transform: none;
+    text-shadow: 2px 3px 12px rgba(0, 0, 0, 0.75);
+    margin: 0;
+    padding: 0;
+}
+
+html[dir="rtl"] .headline .highlight {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1em;
+    color: #4a3524;
+    -webkit-text-stroke: 1px rgba(184, 149, 122, 0.35);
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+html[dir="rtl"] .sub-headline {
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    line-height: 1.55;
+}
+
+html[dir="rtl"] .description {
+    font-size: clamp(0.85rem, 1.1vw, 1rem);
+    line-height: 1.75;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .headline {
+        font-size: clamp(1.9rem, 8.5vw, 2.9rem);
+        line-height: 1.2;
+    }
+    html[dir="rtl"] .sub-headline { font-size: 1rem; }
+    html[dir="rtl"] .description  { font-size: 0.9rem; line-height: 1.85; }
+}
+
+@media (max-width: 480px) {
+    html[dir="rtl"] .headline {
+        font-size: clamp(1.7rem, 8vw, 2.3rem);
+    }
+}
+
+
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   35. HIDE THE "LIMITED TIME OFFER" HEADER
+   Removes the header block (title + subtitle + kicker + gold rule)
+   inside the discount section for English / Arabic / Kurdish.
+   ═══════════════════════════════════════════════════════════════════ */
+
+.discount-section .blog-header {
+    display: none !important;
+}
+
+/* Tighten the top padding left behind by the removed header */
+.discount-section {
+    padding-top: 3.5rem !important;
+}
+
+@media (max-width: 768px) {
+    .discount-section {
+        padding-top: 2.5rem !important;
+    }
+}
+
+
+
+
+.content-wrapper .left-content {
+    position: relative;
+    z-index: 1;
+}
+
+.content-wrapper .left-content::before {
+    content: '';
+    position: absolute;
+    inset: -5rem -7rem -5rem -7rem;         /* ← bigger spread */
+    background: radial-gradient(
+        ellipse 85% 80% at center,           /* ← wider ellipse */
+        rgba(197, 182, 182, 0.82) 0%,
+        rgba(197, 182, 182, 0.62) 35%,
+        rgba(197, 182, 182, 0.35) 60%,
+        rgba(197, 182, 182, 0.12) 80%,
+        transparent 100%
+    );
+    filter: blur(45px);                       /* ← softer edge */
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.content-wrapper .left-content > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+  
+        /* ─── HERO SLIDER STYLES ─── */
+        .content-wrapper {
+            /* Override the old static background image */
+            background-image: none !important;
+        }
+
+        .hero-slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2; /* Sits behind the dark overlay and text */
+            overflow: hidden;
+        }
+
+        .hero-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out; /* Smooth fade effect */
+            display: block;
+        }
+
+        .hero-slide.active {
+            opacity: 1;
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // ─── PARALLAX SCROLL ───
+(function() {
+    const wrapper = document.querySelector('.plx-wrapper');
+    const bg      = document.querySelector('.plx-bg');
+    const content = document.querySelector('.plx-content');
+    const hint    = document.querySelector('.plx-scroll-hint');
+
+    if (!wrapper) return;
+
+    function updateParallax() {
+        const rect      = wrapper.getBoundingClientRect();
+        const maxScroll = Math.max(1, wrapper.offsetHeight - window.innerHeight);
+        const scrolled  = -rect.top;
+
+        // Clamp progress instead of early-returning (Bug 4 + Bug 5 fixed)
+        const progress = Math.max(0, Math.min(1, scrolled / maxScroll));
+
+        // Background drifts UP using the bottom buffer (Bug 2 + Bug 3 fixed)
+        // Safe max ≈ 8.3% — using 7% for margin
+        if (bg) {
+            bg.style.transform = `translateY(${-progress * 7}%)`;
+        }
+
+        // Text drifts up and fades
+        if (content) {
+            content.style.transform = `translateX(-50%) translateY(${-progress * 100}px)`;
+            content.style.opacity   = (1 - progress * 0.9).toFixed(2);
+        }
+
+        // Hide scroll hint after user starts scrolling
+        if (hint) {
+            hint.style.opacity = Math.max(0, 1 - progress * 3).toFixed(2);
+        }
+    }
+
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+        if (!ticking) {
+            window.requestAnimationFrame(() => {
+                updateParallax();
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }, { passive: true });   // ← perf win, prevents scroll jank
+
+    window.addEventListener('resize', updateParallax);
+    updateParallax();
+})();
+
+
+// ─── IMAGE CAROUSEL ───
+(function() {
+    const leftBtn  = document.querySelector('.plx-arrow-left');
+    const rightBtn = document.querySelector('.plx-arrow-right');
+    const items    = document.querySelectorAll('.plx-item');
+
+    if (!leftBtn || !rightBtn || !items.length) return;
+
+    let animating = false;
+
+    function rotate(direction) {
+        if (animating) return;
+        animating = true;
+
+        items.forEach(item => {
+            if (direction === 'next') {
+                if (item.classList.contains('pos-right')) {
+                    item.classList.replace('pos-right', 'pos-center');
+                } else if (item.classList.contains('pos-center')) {
+                    item.classList.replace('pos-center', 'pos-left');
+                } else if (item.classList.contains('pos-left')) {
+                    item.classList.replace('pos-left', 'pos-right');
+                }
+            } else {
+                if (item.classList.contains('pos-left')) {
+                    item.classList.replace('pos-left', 'pos-center');
+                } else if (item.classList.contains('pos-center')) {
+                    item.classList.replace('pos-center', 'pos-right');
+                } else if (item.classList.contains('pos-right')) {
+                    item.classList.replace('pos-right', 'pos-left');
+                }
+            }
+        });
+
+        // Bug 6 fix: unlock on real transition end, with a fallback timer
+        const centerItem = document.querySelector('.plx-item.pos-center');
+        let unlocked = false;
+
+        const unlock = () => {
+            if (unlocked) return;
+            unlocked = true;
+            animating = false;
+        };
+
+        if (centerItem) {
+            centerItem.addEventListener('transitionend', unlock, { once: true });
+        }
+        setTimeout(unlock, 1000);   // safety fallback
+    }
+
+    leftBtn.addEventListener('click', () => rotate('prev'));
+    rightBtn.addEventListener('click', () => rotate('next'));
+})();
