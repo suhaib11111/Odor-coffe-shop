@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+            <button class="mobile-menu-btn" aria-label="Menu"><i class="fas fa-bars"></i></button>
         </div>
     </nav>
 
@@ -758,14 +758,14 @@
             btn.addEventListener('click', () => {
                 const isOpen = links.classList.toggle('open');
                 document.body.classList.toggle('menu-open', isOpen);
-                btn.textContent = isOpen ? '✕' : '☰';
+                btn.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
             });
 
             links.querySelectorAll('a').forEach(a => {
                 a.addEventListener('click', () => {
                     links.classList.remove('open');
                     document.body.classList.remove('menu-open');
-                    btn.textContent = '☰';
+                    btn.innerHTML = '<i class="fas fa-bars"></i>';
                 });
             });
 
@@ -775,7 +775,16 @@
                 if (links.contains(e.target) || btn.contains(e.target)) return;
                 links.classList.remove('open');
                 document.body.classList.remove('menu-open');
-                btn.textContent = '☰';
+                btn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+
+            // Close menu on resize
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 768) {
+                    links.classList.remove('open');
+                    document.body.classList.remove('menu-open');
+                    btn.innerHTML = '<i class="fas fa-bars"></i>';
+                }
             });
         })();
 
