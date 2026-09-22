@@ -753,12 +753,21 @@
             const btn = document.querySelector('.mobile-menu-btn');
             const links = document.querySelector('.nav-links');
 
-            if (!btn || !links) return;
+            if (!btn || !links) {
+                console.log('Mobile menu elements not found');
+                return;
+            }
 
-            btn.addEventListener('click', () => {
+            console.log('Mobile menu initialized');
+
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                console.log('Menu button clicked');
                 const isOpen = links.classList.toggle('open');
                 document.body.classList.toggle('menu-open', isOpen);
                 btn.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+                console.log('Menu state:', isOpen ? 'open' : 'closed');
             });
 
             links.querySelectorAll('a').forEach(a => {
