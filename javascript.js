@@ -8,18 +8,17 @@
     if (!wrapper) return;
 
     function updateParallax() {
-        const rect = wrapper.getBoundingClientRect();
-        const maxScroll = wrapper.offsetHeight - window.innerHeight;
-        const scrolled = -rect.top;
+        const rect      = wrapper.getBoundingClientRect();
+        const maxScroll = Math.max(1, wrapper.offsetHeight - window.innerHeight);
+        const scrolled  = -rect.top;
 
-        if (scrolled < -window.innerHeight || scrolled > maxScroll + window.innerHeight) return;
-
+        // Clamp progress instead of early-returning (Bug 4 + Bug 5 fixed)
         const progress = Math.max(0, Math.min(1, scrolled / maxScroll));
 
-        // Background slides down (parallax drift, no zoom)
+        // Background drifts UP using the bottom buffer (Bug 2 + Bug 3 fixed)
+        // Safe max ≈ 8.3% — using 7% for margin
         if (bg) {
-            const y = progress * 20;   // % of movement — tweak to taste
-            bg.style.transform = `translateY(${y}%)`;
+            bg.style.transform = `translateY(${-progress * 7}%)`;
         }
 
         // Text drifts up and fades
@@ -43,11 +42,12 @@
             });
             ticking = true;
         }
-    });
+    }, { passive: true });   // ← perf win, prevents scroll jank
 
     window.addEventListener('resize', updateParallax);
     updateParallax();
 })();
+
 
 // ─── IMAGE CAROUSEL ───
 (function() {
@@ -65,7 +65,6 @@
 
         items.forEach(item => {
             if (direction === 'next') {
-                // Right arrow: right→center, center→left, left→right
                 if (item.classList.contains('pos-right')) {
                     item.classList.replace('pos-right', 'pos-center');
                 } else if (item.classList.contains('pos-center')) {
@@ -74,7 +73,6 @@
                     item.classList.replace('pos-left', 'pos-right');
                 }
             } else {
-                // Left arrow: left→center, center→right, right→left
                 if (item.classList.contains('pos-left')) {
                     item.classList.replace('pos-left', 'pos-center');
                 } else if (item.classList.contains('pos-center')) {
@@ -85,14 +83,22 @@
             }
         });
 
-        // release the lock after transition ends
-        setTimeout(() => { animating = false; }, 950);
+        // Bug 6 fix: unlock on real transition end, with a fallback timer
+        const centerItem = document.querySelector('.plx-item.pos-center');
+        let unlocked = false;
+
+        const unlock = () => {
+            if (unlocked) return;
+            unlocked = true;
+            animating = false;
+        };
+
+        if (centerItem) {
+            centerItem.addEventListener('transitionend', unlock, { once: true });
+        }
+        setTimeout(unlock, 1000);   // safety fallback
     }
 
     leftBtn.addEventListener('click', () => rotate('prev'));
     rightBtn.addEventListener('click', () => rotate('next'));
 })();
-
-
-
-

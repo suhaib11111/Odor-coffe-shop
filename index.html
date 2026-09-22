@@ -72,6 +72,25 @@
 
     <!-- Hero Section -->
     <div class="content-wrapper" id="home">
+        <!-- Hero Slideshow -->
+        <div class="hero-slideshow">
+            <div class="slide active">
+                <img src="image/main.png" alt="ODOR Coffee Hero 1">
+            </div>
+            <div class="slide">
+                <img src="image/coffe10.png" alt="ODOR Coffee Hero 2">
+            </div>
+            <div class="slide">
+                <img src="image/inside.jpg" alt="ODOR Coffee Hero 3">
+            </div>
+            <div class="slide">
+                <img src="image/bag.jpg" alt="ODOR Coffee Hero 4">
+            </div>
+            <div class="slide">
+                <img src="image/horizontal.png" alt="ODOR Coffee Hero 5">
+            </div>
+        </div>
+
         <div class="main-content">
             <div class="left-content">
                 <h1 class="headline" data-i18n-html="hero_title">Discover <br />the real taste of coffe with <span class="highlight">ODOR</span></h1>
@@ -573,7 +592,30 @@
 
     <script>
 
-        
+        // ─── HERO SLIDESHOW ───
+        (function() {
+            const slides = document.querySelectorAll('.hero-slideshow .slide');
+            if (!slides.length) return;
+
+            let currentSlide = 0;
+            const interval = 6000; // 6 seconds per slide
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle('active', i === index);
+                });
+            }
+
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }
+
+            // Start slideshow
+            showSlide(0);
+            setInterval(nextSlide, interval);
+        })();
+
         // ─── COUNTDOWN TIMER ───
         (function() {
             const offerEndDate = new Date('2026-12-31T23:59:59').getTime();
