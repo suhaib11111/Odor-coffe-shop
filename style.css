@@ -2651,7 +2651,7 @@ html[dir="rtl"] .footer-social i {
     }
 
     .mobile-menu-btn {
-        display: flex;
+        display: flex !important;
         align-items: center;
         justify-content: center;
         width: 44px;
@@ -2662,6 +2662,7 @@ html[dir="rtl"] .footer-social i {
         color: #b8957a;
         font-size: 1.4rem;
         transition: all 0.3s ease;
+        cursor: pointer;
     }
 
     .mobile-menu-btn:hover {
@@ -2671,6 +2672,7 @@ html[dir="rtl"] .footer-social i {
 
     /* Enhanced Mobile Menu */
     .nav-links {
+        display: none;
         position: fixed;
         top: 0;
         right: -100%;
@@ -2686,6 +2688,10 @@ html[dir="rtl"] .footer-social i {
         transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
         z-index: 1000;
+    }
+
+    .nav-links.open {
+        display: flex;
     }
 
     .nav-links.open {
