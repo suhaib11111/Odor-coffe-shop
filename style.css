@@ -3100,6 +3100,10 @@ html[dir="rtl"] .footer-social i {
         text-align: right;
     }
 
+    html[dir="rtl"] .hero-feature-cards {
+        padding: 2rem 1.25rem 3rem 1.25rem;
+    }
+
     html[dir="rtl"] .shop-card {
         align-items: flex-end;
         text-align: right;
