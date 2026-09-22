@@ -206,6 +206,16 @@ body {
     cursor: pointer;
 }
 
+@media (min-width: 769px) {
+    .nav-links { display: flex; }
+    .mobile-menu-btn { display: none; }
+}
+
+@media (max-width: 768px) {
+    .nav-links { display: none; }
+    .mobile-menu-btn { display: flex; }
+}
+
 
 /* ═══════════════════════════════════════════════════════════════════
    5. SOCIAL SIDEBAR
@@ -785,7 +795,7 @@ body.menu-open { overflow: hidden; }
     z-index: 10;
     display: flex;
     width: 100%;
-    height: 80vh;
+    min-height: 60vh;
     align-items: stretch;
     background-color: #F7F1EA;
     color: #5D4037;
@@ -893,7 +903,7 @@ body.menu-open { overflow: hidden; }
 
 .shop-card {
     background: rgba(42, 30, 23, 0.9);
-    padding: 2.5rem 2rem;
+    padding: 2rem 1.5rem;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
@@ -901,6 +911,8 @@ body.menu-open { overflow: hidden; }
     flex-direction: column;
     align-items: center;
     animation: fadeUpIn 1s ease-out both;
+    min-height: auto;
+    height: auto;
 }
 
 .shop-card:nth-child(1) { animation-delay: 0s;   }
@@ -916,9 +928,9 @@ body.menu-open { overflow: hidden; }
 }
 
 .shop-icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #b8957a;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .shop-card h3 {
@@ -929,19 +941,19 @@ body.menu-open { overflow: hidden; }
 }
 
 .shop-card p {
-    font-size: 0.95rem;
-    line-height: 1.6;
+    font-size: 0.9rem;
+    line-height: 1.5;
     color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 1.5rem;
-    flex-grow: 1;
+    margin-bottom: 1rem;
+    flex-grow: 0;
 }
 
 .price {
     font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: #b8957a;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .add-btn {
@@ -2692,6 +2704,7 @@ html[dir="rtl"] .footer-social i {
 
     .nav-links.open {
         display: flex;
+        right: 0;
     }
 
     .nav-links.open {
@@ -2816,11 +2829,12 @@ html[dir="rtl"] .footer-social i {
     .split-section, .about-section {
         flex-direction: column;
         height: auto;
+        min-height: auto;
     }
 
     .split-left, .about-text {
         width: 100%;
-        padding: 3rem 1.5rem;
+        padding: 2.5rem 1.5rem;
         height: auto;
     }
 
@@ -2828,11 +2842,14 @@ html[dir="rtl"] .footer-social i {
         width: 100%;
         padding: 2rem 0;
         height: auto;
+        min-height: 40vh;
     }
 
     .split-right img, .about-image img {
-        width: 90%;
-        max-height: 60vh;
+        width: 100%;
+        height: 100%;
+        max-height: 50vh;
+        object-fit: cover;
     }
 
     .video-content h2 {
@@ -2846,33 +2863,40 @@ html[dir="rtl"] .footer-social i {
 
     .shop-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .shop-card {
-        padding: 2rem 1.5rem;
+        padding: 1.5rem 1.2rem;
         border-radius: 16px;
+        min-height: auto;
+        height: auto;
     }
 
     .shop-icon {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-bottom: 0.6rem;
     }
 
     .shop-card h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
     }
 
     .shop-card p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.4;
     }
 
     .price {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        margin-bottom: 0.6rem;
     }
 
     .add-btn {
-        padding: 0.7rem 1.8rem;
-        font-size: 0.75rem;
+        padding: 0.6rem 1.5rem;
+        font-size: 0.7rem;
     }
 
     /* Enhanced Mobile Parallax Gallery */
